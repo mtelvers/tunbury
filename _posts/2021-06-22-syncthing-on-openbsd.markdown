@@ -81,7 +81,7 @@ Stage the installation files on a local web server by copying them from the boot
     cp -rv /mnt/6.9/ /var/www/htdocs/pub/OpenBSD/6.9
     ls -l /var/www/htdocs/pub/OpenBSD/6.9 > /var/www/htdocs/pub/OpenBSD/6.9/index.txt
 
-Create /var/www/htdocs/install.conf` continue the follow automatic confgiuration answer file
+Create `/var/www/htdocs/install.conf` containing the following automatic confgiuration answer file
 
     Password for root = Password
     Setup a user = user
