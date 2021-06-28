@@ -4,8 +4,8 @@ title:  "WordPress to Jekyll Test"
 date:   2021-05-25 13:41:29 +0100
 categories: raspberrypi obs
 image:
-  path: /images/via-cpu.jpg
-  thumbnail: /images/via-cpu.jpg
+  path: /images/wordpress.png
+  thumbnail: /images/wordpress.png
 ---
 Install the Wordpress plugins *UpdraftPlus*.  Create a new WordPress site and install the *UpdraftPlus* plugin and restore the database.
 
