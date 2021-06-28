@@ -5,8 +5,8 @@ date:   2020-08-23 13:41:29 +0100
 categories: swift
 usemathjax: true
 image:
-  path: /images/Mandelbrot-set-3d.png
-  thumbnail: /images/Mandelbrot-set-3d.png
+  path: /images/mandelbrot-set-3d.png
+  thumbnail: /images/mandelbrot-set-3d.png
 ---
 
 Back in 2015 in one of the earliest posts on this site I wrote about my fascination with the Mandelbrot set.
