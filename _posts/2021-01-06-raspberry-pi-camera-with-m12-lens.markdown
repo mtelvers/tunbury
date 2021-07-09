@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title:  "Raspberry PI Camera with M12 Lens"
 date:   2021-01-06 13:41:29 +0100
@@ -74,4 +74,18 @@ Finally in OBS connect add a media source `tcp://192.168.0.88:5001`.
 ![](/images/8mm.png "f=8mm")
 ![](/images/16mm.png "f=16mm")
 ![](/images/22mm.png "f=22mm")
+
+# Parts list
+
+| Part                                                                                                                         | Cost  |
+| ---------------------------------------------------------------------------------------------------------------------------- | ----- |
+| [Pi 3B](https://www.amazon.co.uk/Raspberry-Pi-Model-Quad-Motherboard/dp/B01CD5VC92)                                          | £34   |
+| [PoE Splitter - 2 pack](https://www.amazon.co.uk/gp/product/B07WCGY2QY/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)      | £17   |
+| [5MP Camera Module - 2 pack](https://www.amazon.co.uk/gp/product/B07ZZ2K7WP/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1) | £9    |
+| [Zoom lens](https://www.amazon.co.uk/gp/product/B08FDVYC98/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)                  | £10   |
+| [M12 Mount - 10 pack](https://www.amazon.co.uk/gp/product/B00R1J42T8/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)       | £5    |
+| [3mm plywood - 25 pack](https://www.amazon.co.uk/gp/product/B075QMCYZM/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)      | £24   |
+| [SD Card](https://www.amazon.co.uk/gp/product/B003WIRFD2/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)                    | £3.70 |
+
+A single camera would cost £62.
 
