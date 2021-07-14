@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "Jitsi"
+date:   2021-07-14 20:41:29 +0100
+categories: Jitsi Ubuntu
+image:
+  path: /images/jitsi-logo-blue-grey-text.png
+  thumbnail: /images/jitsi-logo-blue-grey-text.png
+---
+I need to remotely control OBS during a live stream.  This is quite simply achieved via VNC but I need the see and hear what's going on at the same time.  VNC doesn't support audio on the free license and watching the YouTube stream is out of the question as it's nearly 30 seconds behind real time.
+
+As the computer has a USB web camera and microphone attached I thought of a private LAN based v/c solution.  A quick Internet search found a [post on Redit](https://www.reddit.com/r/sysadmin/comments/gmray4/recommendation_for_free_lanonly_video/) talking about Jitsi.
+
+After installing a Ubunutu 20.04 server VM, I followed the Jitsi [Self-Hosting Guide](https://jitsi.github.io/handbook/docs/devops-guide/devops-guide-quickstart) which takes just a few minutes.  Since it was a private LAN implementation I skipped the optional FQDN section of the instructions and used the self-signed certificate.
+
+Connecting to the DHCP assigned address via over https brought the expected certificate warnings but I was able to create and join a room.  The camera and microphone did not start.  Every 30 seconds or so this message appeared about reconnecting:
+
+![Jitsi Disconnected](/images/jitsi-disconnected.png)
+
+The fix to this was to use a host name not an IP address.  On Windows machines edit `C:\Windows\System32\Drivers\etc\hosts` and on a Mac edit `/etc/hosts`.  In both cases I added the DHCP issued IP address and hostname of the Ubuntu server:
+
+    192.168.1.76	jitsi
+
+Connecting to Jitsu using [https://jitsi](https://jitsi) and skipping passed the certificate warnings brought me to a working implementation.  Certainly impressive and easy to setup!
