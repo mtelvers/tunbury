@@ -22,7 +22,7 @@ This was cut on the laser cutter.
 
 When assembling the electronics it became apparent that it would have been better to have a slightly taller box, but rather than waste the materials I decided to mount the Arduino upside down thereby fitting in a height of 12mm.
 
-![Arduino](/images/foot-operated-timer-ardiuno.jpg)
+![Arduino](/images/foot-operated-timer-arduino.jpg)
 
 The DS3231 real time clock module was modified by bending the pins to fit in with the vero board spacing.  Ultimately the battery holder was also removed to save space.
 
