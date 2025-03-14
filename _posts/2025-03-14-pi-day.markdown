@@ -5,8 +5,8 @@ date:   2025-03-14 13:00:00 +0000
 categories: pi
 tags: tunbury.org
 image:
-  path: /images/happy-pi-day.jpg
-  thumbnail: /images/happy-pi-day.jpg
+  path: /images/pi.png
+  thumbnail: /images/pi.png
 ---
 
 It's [Pi Day](https://en.wikipedia.org/wiki/Pi_Day) 2025
