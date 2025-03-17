@@ -1,0 +1,42 @@
+---
+layout: post
+title:  "Irmin Database"
+date:   2025-03-15 00:00:00 +0000
+categories: irmin
+tags: tunbury.org
+image:
+  path: /images/irmin.png
+  thumbnail: /images/irmin.png
+---
+
+After Thomas' talk today I wanted to try [Irmin](https://irmin.org) for myself.
+
+In a new switch I installed Irmin via opam `opam install irmin-git` and then built the [example code](https://irmin.org/tutorial/getting-started/)
+
+```ocaml
+open Lwt.Syntax
+module Git_store = Irmin_git_unix.FS.KV (Irmin.Contents.String)
+module Git_info = Irmin_unix.Info (Git_store.Info)
+
+let git_config = Irmin_git.config ~bare:true "./db"
+let info message = Git_info.v ~author:"Example" "%s" message
+
+let main_branch config =
+  let* repo = Git_store.Repo.v config in
+  Git_store.main repo
+
+let main =
+  let* t = main_branch git_config in
+  (* Set a/b/c to "Hello, Irmin!" *)
+  let* () =
+    Git_store.set_exn t [ "a"; "b"; "c" ] "Hello, Irmin!"
+      ~info:(info "my first commit")
+  in
+  (* Get a/b/c *)
+  let+ s = Git_store.get t [ "a"; "b"; "c" ] in
+  assert (s = "Hello, Irmin!")
+
+let () = Lwt_main.run main
+```
+
+I'm pretty excited about the possibilities.
