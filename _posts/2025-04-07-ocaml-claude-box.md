@@ -9,7 +9,7 @@ image:
   thumbnail: /images/box-logo.png
 ---
 
-Over the weekend, I decided to extend my [Box](www.box.com) [tool](https://github.com/mtelvers/ocaml-box-diff) to incorporate file upload. There is a straightforward POST API for this with a `curl` one-liner given in the Box [documentation](https://developer.box.com/reference/post-files-content/). Easy.
+Over the weekend, I decided to extend my [Box](https://box.com) [tool](https://github.com/mtelvers/ocaml-box-diff) to incorporate file upload. There is a straightforward POST API for this with a `curl` one-liner given in the Box [documentation](https://developer.box.com/reference/post-files-content/). Easy.
 
 The documentation for [Cohttp-eio.Client](https://mirage.github.io/ocaml-cohttp/cohttp-eio/Cohttp_eio/Client/index.html) only gives the function signature for `post`, but it looked pretty similar to `get`, which I had already been working with. The [README](https://github.com/mirage/ocaml-cohttp) for Cohttp gave me pause when I read this comment about multipart forms.
 
