@@ -1,0 +1,28 @@
+---
+---
+
+@import "so-simple";
+
+.masthead {
+  @include clearfix;
+  margin-bottom: 0em;
+  text-align: center;
+}
+
+.page-image {
+  @include breakpoint($medium) {
+    margin-top: 0px;
+  }
+
+  @include breakpoint($large) {
+    margin-top: 0px;
+  }
+
+  margin-top: 0px;
+
+  img {
+    max-height: 400px;
+    width: 78%;
+    object-fit: contain;
+  }
+}
