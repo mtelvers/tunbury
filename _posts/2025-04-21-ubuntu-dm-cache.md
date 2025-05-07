@@ -2,7 +2,7 @@
 layout: post
 title:  "Ubuntu cloud-init with LVM and dm-cache"
 date:   2025-04-21 00:00:00 +0000
-categories: cloud-init, dm-cache, Ubuntu
+categories: cloud-init,dm-cache,Ubuntu
 tags: tunbury.org
 image:
   path: /images/ubuntu.png

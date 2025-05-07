@@ -2,7 +2,7 @@
 layout: post
 title:  "OCaml < 4.14, Fedora 42 and GCC 15"
 date:   2025-04-22 00:00:00 +0000
-categories: OCaml, Fedora, GCC
+categories: OCaml,Fedora,GCC
 tags: tunbury.org
 image:
   path: /images/ocaml-logo.png

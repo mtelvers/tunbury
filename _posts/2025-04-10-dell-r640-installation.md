@@ -2,7 +2,7 @@
 layout: post
 title:  "Dell R640 installation"
 date:   2025-04-10 00:00:00 +0000
-categories: Dell, R640
+categories: Dell,R640
 tags: tunbury.org
 image:
   path: /images/dell-r640-final.jpg

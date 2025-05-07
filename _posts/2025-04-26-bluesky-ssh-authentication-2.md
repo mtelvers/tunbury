@@ -2,7 +2,7 @@
 layout: post
 title:  "Bluesky SSH Authentication #2"
 date:   2025-04-26 00:00:00 +0000
-categories: bluesky, sshd
+categories: bluesky,sshd
 tags: tunbury.org
 image:
   path: /images/bluesky-logo.png

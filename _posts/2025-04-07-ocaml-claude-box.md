@@ -2,7 +2,7 @@
 layout: post
 title:  "Box API with OCaml and Claude"
 date:   2025-04-07 00:00:00 +0000
-categories: OCaml, Box
+categories: OCaml,Box
 tags: tunbury.org
 image:
   path: /images/box-logo.png

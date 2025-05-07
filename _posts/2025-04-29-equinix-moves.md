@@ -2,7 +2,7 @@
 layout: post
 title: "Equinix Moves"
 date: 2025-04-29 00:00:00 +0000
-categories: registry.ci.dev, opam-repo-ci, get.dune.build
+categories: registry.ci.dev,opam-repo-ci,get.dune.build
 tags: tunbury.org
 image:
   path: /images/equinix.png
