@@ -9,8 +9,7 @@ image:
   thumbnail: /images/obuilder.png
 ---
 
-
-The log from an OBuilder job starts with the steps needed to reproduce the job locally. This boilerplate output assumes that all OBuilder jobs start from a Docker base image, but on some operating systems, such as FreeBSD and macOS, OBuilder uses ZFS base images. On OpenBSD and Windows, it uses QEMU images. The situation is further complicated when the issue only affects a specific architecture that may be unavailable to the user.
+The log from an [OBuilder](https://github.com/ocurrent/obuilder) job starts with the steps needed to reproduce the job locally. This boilerplate output assumes that all OBuilder jobs start from a Docker base image, but on some operating systems, such as FreeBSD and macOS, OBuilder uses ZFS base images. On OpenBSD and Windows, it uses QEMU images. The situation is further complicated when the issue only affects a specific architecture that may be unavailable to the user.
 
 ```
 2025-05-08 13:29.37: New job: build bitwuzla-cxx.0.7.0, using opam 2.3
@@ -216,7 +215,7 @@ $ patch -p1 < ../../../../vendor/patch/0001-api-Add-hook-for-ocaml-z-value.patch
 patching file 'include/bitwuzla/cpp/bitwuzla.h’
 ```
 
-And now, it succeeds. The issue is that the GNU patch and Apple patch act differently when the file being patched is read-only. Apple’s patch gives a spurious error, while the GNU patch emits a warning and makes the change anyway.
+And now, it succeeds. The issue is that GNU's `patch` and Apple's `patch` act differently when the file being patched is read-only. Apple’s `patch` gives a spurious error, while GNU's `patch` emits a warning and makes the change anyway.
 
 Updating the `dune` file to include `chmod` should both clear the warning and allow the use of the native patch.
 
@@ -242,5 +241,5 @@ Updating the `dune` file to include `chmod` should both clear the warning and al
     (write-file %{target} "")))))
 ```
 
-As an essential last step, we need to tidy up on this machine. Exit the shell. Refer back to the log file for the job and run all the remaining ZFS commands. This is incredibly important on macOS and essential to keep the jobs database in sync with the snapshots.
+As an essential last step, we need to tidy up on this machine. Exit the shell. Refer back to the log file for the job and run all the remaining ZFS commands. This is incredibly important on macOS and essential to keep the jobs database in sync with the layers.
 
