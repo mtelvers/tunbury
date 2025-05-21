@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "ZFS Replication with Ansible"
-date: 2025-05-15 00:00:00 +0000
+date: 2025-05-16 00:00:00 +0000
 categories: openzfs
 tags: tunbury.org
 image:
