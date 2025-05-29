@@ -5,7 +5,7 @@ date:   2019-01-17 13:41:29 +0100
 categories: powershell
 image:
   path: /images/PowerCLI.png
-  thumbnail: /images/PowerCLI.png
+  thumbnail: /images/thumbs/PowerCLI.png
 ---
 Normally, I’d used a Windows NFS Server to host my ISO files. The steps couldn’t be simpler
 

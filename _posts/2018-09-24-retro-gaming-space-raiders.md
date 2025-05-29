@@ -5,7 +5,7 @@ date:   2018-09-24 13:41:29 +0100
 categories: specturm raspberrypi
 image:
   path: /images/space-raiders.jpg
-  thumbnail: /images/space-raiders.jpg
+  thumbnail: /images/thumbs/space-raiders.jpg
 ---
 Dylan’s favourite t-shirt is his Game Over shirt which always reminds me to Space Raiders from the ZX Spectrum days. I found the cassette tape quite easily but it took a significant amount of searching to find the Spectrum itself and included in the box was the tape recorder as well!
 

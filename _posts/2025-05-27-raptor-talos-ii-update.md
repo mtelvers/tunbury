@@ -6,7 +6,7 @@ categories: power9
 tags: tunbury.org
 image:
   path: /images/raptor-talos-ii.jpg
-  thumbnail: /images/raptor-talos-ii.jpg
+  thumbnail: /images/thumbs/raptor-talos-ii.jpg
 ---
 
 

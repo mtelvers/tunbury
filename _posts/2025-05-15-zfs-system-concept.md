@@ -6,7 +6,7 @@ categories: openzfs
 tags: tunbury.org
 image:
   path: /images/openzfs.png
-  thumbnail: /images/openzfs.png
+  thumbnail: /images/thumbs/openzfs.png
 ---
 
 

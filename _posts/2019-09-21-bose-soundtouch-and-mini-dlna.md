@@ -5,7 +5,7 @@ date:   2019-09-21 13:41:29 +0100
 categories: juniper
 image:
   path: /images/bose-soundtouch-30.jpg
-  thumbnail: /images/bose-soundtouch-30.jpg
+  thumbnail: /images/thumbs/bose-soundtouch-30.jpg
 ---
 [Bose](https://www.bose.co.uk) have a Windows application can host your music library, however I don’t have a Windows machine turn on permanently and I’d prefer a low power Raspberry PI option.
 

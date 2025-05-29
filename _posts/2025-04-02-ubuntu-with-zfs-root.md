@@ -6,7 +6,7 @@ categories: openzfs
 tags: tunbury.org
 image:
   path: /images/openzfs.png
-  thumbnail: /images/openzfs.png
+  thumbnail: /images/thumbs/openzfs.png
 ---
 
 The installation of [Ubuntu on ZFS](https://openzfs.github.io/openzfs-docs/Getting%20Started/Ubuntu/Ubuntu%2022.04%20Root%20on%20ZFS.html)

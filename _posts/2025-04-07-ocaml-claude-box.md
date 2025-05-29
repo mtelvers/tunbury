@@ -6,7 +6,7 @@ categories: OCaml,Box
 tags: tunbury.org
 image:
   path: /images/box-logo.png
-  thumbnail: /images/box-logo.png
+  thumbnail: /images/thumbs/box-logo.png
 ---
 
 Over the weekend, I decided to extend my [Box](https://box.com) [tool](https://github.com/mtelvers/ocaml-box-diff) to incorporate file upload. There is a straightforward POST API for this with a `curl` one-liner given in the Box [documentation](https://developer.box.com/reference/post-files-content/). Easy.

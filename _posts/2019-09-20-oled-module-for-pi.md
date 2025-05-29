@@ -5,7 +5,7 @@ date:   2019-09-20 13:41:29 +0100
 categories: raspberrypi oled
 image:
   path: /images/oled.jpg
-  thumbnail: /images/oled.jpg
+  thumbnail: /images/thumbs/oled.jpg
 ---
 Run `raspi-config` and turn on the i2c interface
 

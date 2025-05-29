@@ -5,7 +5,7 @@ date:   2021-01-06 13:41:29 +0100
 categories: raspberrypi obs
 image:
   path: /images/pi-camera-m12-2.jpg
-  thumbnail: /images/pi-camera-m12-2.jpg
+  thumbnail: /images/thumbs/pi-camera-m12-2.jpg
 ---
 I really need a good lens on my Raspberry PI camera to use it with OBS from a decent distance.  The new high resolution Rasperberry PI cameras look excellent but they also come with a heafty price tag which I just can't justify.
 

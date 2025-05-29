@@ -5,7 +5,7 @@ date:   2020-08-22 13:41:29 +0100
 categories: bash
 image:
   path: /images/pmap-dump.png
-  thumbnail: /images/pmap-dump.png
+  thumbnail: /images/thumbs/pmap-dump.png
 ---
 Yesterday in a stroke of good fortune, I remembered a job that I’d set running a little while back and I checked in to see how it was doing. It’s a MPI console app running on 22 distributed Ubuntu nodes. My application was set to output the time periodically and it currently reported a runtime of 15837421 seconds (just over six months). Unfortunately I couldn’t see the current ‘best’ result as it results aren’t displayed until the end. I was intrigued to see how it was doing.
 

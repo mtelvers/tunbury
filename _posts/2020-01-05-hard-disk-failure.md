@@ -5,7 +5,7 @@ date:   2020-10-05 13:41:29 +0100
 categories: ubuntu
 image:
   path: /images/savvio-10k-sas-disks.jpg
-  thumbnail: /images/savvio-10k-sas-disks.jpg
+  thumbnail: /images/thumbs/savvio-10k-sas-disks.jpg
 ---
 Check the status with `sudo mdadm --detail /dev/md0`
 

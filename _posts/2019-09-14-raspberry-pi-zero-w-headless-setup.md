@@ -5,7 +5,7 @@ date:   2019-09-14 13:41:29 +0100
 categories: raspberrypi
 image:
   path: /images/pi-zero.jpg
-  thumbnail: /images/pi-zero.jpg
+  thumbnail: /images/thumbs/pi-zero.jpg
 ---
 Copy `2019-07-10-raspbian-buster-lite.img` to the SD card with Etcher. Then remove and reinsert the card.
 

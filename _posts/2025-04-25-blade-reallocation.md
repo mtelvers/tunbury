@@ -6,7 +6,7 @@ categories: OCaml
 tags: tunbury.org
 image:
   path: /images/supermicro.png
-  thumbnail: /images/supermicro.png
+  thumbnail: /images/thumbs/supermicro.png
 ---
 
 We have changed our mind about using `dm-cache` in the SSD/RAID1 configuration. The current thinking is that the mechanical drives would be better served as extra capacity for our distributed ZFS infrastructure, where we intend to have two copies of all data, and these disks represent ~100TB of storage.

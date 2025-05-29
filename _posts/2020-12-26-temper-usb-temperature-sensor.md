@@ -5,7 +5,7 @@ date:   2020-12-26 13:41:29 +0100
 categories: raspberrypi
 image:
   path: /images/USB-Thermometer.jpg
-  thumbnail: /images/USB-Thermometer.jpg
+  thumbnail: /images/thumbs/USB-Thermometer.jpg
 ---
 
 These USB sensors are available pretty cheaply from PiHut and Amazon and

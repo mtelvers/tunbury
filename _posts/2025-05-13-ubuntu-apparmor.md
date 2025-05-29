@@ -6,7 +6,7 @@ categories: Ubuntu,runc,AppArmor
 tags: tunbury.org
 image:
   path: /images/ubuntu.png
-  thumbnail: /images/ubuntu.png
+  thumbnail: /images/thumbs/ubuntu.png
 ---
 
 Patrick reported issues with OCaml-CI running tests on `ocaml-ppx`.

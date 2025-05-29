@@ -5,7 +5,7 @@ date:   2021-06-22 20:41:29 +0100
 categories: Syncthing OpenBSD
 image:
   path: /images/openbsd-syncthing.png
-  thumbnail: /images/openbsd-syncthing.png
+  thumbnail: /images/thumbs/openbsd-syncthing.png
 ---
 
 ## Network Installation of OpenBSD

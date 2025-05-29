@@ -5,7 +5,7 @@ date:   2020-04-18 13:41:29 +0100
 categories: ubuntu minecraft
 image:
   path: /images/minecraft_cover.png
-  thumbnail: /images/minecraft_cover.png
+  thumbnail: /images/thumbs/minecraft_cover.png
 ---
 See [How to install a Minecraft Bedrock Server on Ubuntu](https://linuxize.com/post/how-to-install-minecraft-server-on-ubuntu-18-04/)
 

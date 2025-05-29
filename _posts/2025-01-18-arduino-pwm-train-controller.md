@@ -6,7 +6,7 @@ categories: 3d-printing
 tags: tunbury.org
 image:
   path: /images/train-controller-photo.png
-  thumbnail: /images/train-controller-photo.png
+  thumbnail: /images/thumbs/train-controller-photo.png
 ---
 
 # Circuit

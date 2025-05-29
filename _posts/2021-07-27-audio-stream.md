@@ -5,7 +5,7 @@ date:   2021-07-27 20:41:29 +0100
 categories: raspberrypi obs
 image:
   path: /images/pi-zerow-usb-audio.jpg
-  thumbnail: /images/pi-zerow-usb-audio.jpg
+  thumbnail: /images/thumbs/pi-zerow-usb-audio.jpg
 ---
 Now singing has returned to churches I need to add an additional microphone to pickup the choir.  I'd like this to be completely separate to the Church PA system to avoid playing this sound out through the speakers.  A Raspberry PI Zero W with a USB sound card looks to be a good option to capture the audio and stream it to OBS.
 

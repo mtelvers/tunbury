@@ -6,7 +6,7 @@ categories: openzfs
 tags: tunbury.org
 image:
   path: /images/sequoia.jpg
-  thumbnail: /images/sequoia.jpg
+  thumbnail: /images/thumbs/sequoia.jpg
 ---
 
 We have 8 Mac Minis running [OCluster](https://github.com/ocurrent/ocluster) that need to be updated to macOS Sequoia.

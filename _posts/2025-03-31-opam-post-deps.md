@@ -6,7 +6,7 @@ categories: opam
 tags: tunbury.org
 image:
   path: /images/opam.png
-  thumbnail: /images/opam.png
+  thumbnail: /images/thumbs/opam.png
 ---
 
 Previously, I discussed the installation order for a simple directed acyclic graph without any cycles. However, `opam` packages include _post_ dependencies. Rather than package A depending upon B where B would be installed first, _post_ dependencies require X to be installed after Y. The _post_ dependencies only occur in a small number of core OCaml packages. They are quite often empty and exist to direct the solver. Up until now, I had been using a base layer with an opam switch containing the base compiler and, therefore, did not need to deal with any _post_ dependencies.

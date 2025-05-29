@@ -5,7 +5,7 @@ date:   2020-06-04 13:41:29 +0100
 categories: raspberrypi
 image:
   path: /images/pi-obs.png
-  thumbnail: /images/pi-obs.png
+  thumbnail: /images/thumbs/pi-obs.png
 ---
 Using the new [Raspberry Pi Imager](https://www.raspberrypi.org/downloads/) I’ve installed the latest Raspberry Pi OS Lite (32 bit).
 

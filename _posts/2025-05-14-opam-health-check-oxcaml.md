@@ -6,7 +6,7 @@ categories: opam-health-check,OxCaml
 tags: tunbury.org
 image:
   path: /images/ocaml-logo.png
-  thumbnail: /images/ocaml-logo.png
+  thumbnail: /images/thumbs/ocaml-logo.png
 ---
 
 Arthur mentioned that it would be great to know which packages build successfully with OxCaml and which don’t.

@@ -6,7 +6,7 @@ categories: FreeBSD,UEFI,iPXE
 tags: tunbury.org
 image:
   path: /images/freebsd-logo.png
-  thumbnail: /images/freebsd-logo.png
+  thumbnail: /images/thumbs/freebsd-logo.png
 ---
 
 I had assumed that booting FreeBSD over the network using iPXE would be pretty simple. There is even a `freebsd.ipxe` file included with Netboot.xyz. However, I quickly realised that most of the Internet wisdom on this process centred around legacy BIOS rather than UEFI. When booting with UEFI, the Netboot.xyz menu omits the FreeBSD option as it only supports legacy BIOS. Even in legacy mode, it uses `memdisk` from the Syslinux project rather than a FreeBSD loader.

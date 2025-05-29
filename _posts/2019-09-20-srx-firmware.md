@@ -5,7 +5,7 @@ date:   2019-09-20 13:41:29 +0100
 categories: juniper
 image:
   path: /images/SRX100H2.jpg
-  thumbnail: /images/SRX100H2.jpg
+  thumbnail: /images/thumbs/SRX100H2.jpg
 ---
 Download the latest version of the software and copy it over to the SRX
 

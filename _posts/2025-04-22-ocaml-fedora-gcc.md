@@ -6,7 +6,7 @@ categories: OCaml,Fedora,GCC
 tags: tunbury.org
 image:
   path: /images/ocaml-logo.png
-  thumbnail: /images/ocaml-logo.png
+  thumbnail: /images/thumbs/ocaml-logo.png
 ---
 
 Late last week, @MisterDA added Fedora 42 support to the [Docker base image builder](https://images.ci.ocaml.org). The new base images attempted to build over the weekend, but there have been a few issues!

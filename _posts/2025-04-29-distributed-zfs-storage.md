@@ -6,7 +6,7 @@ categories: openzfs
 tags: tunbury.org
 image:
   path: /images/openzfs.png
-  thumbnail: /images/openzfs.png
+  thumbnail: /images/thumbs/openzfs.png
 ---
 
 Following Anil’s [note](https://anil.recoil.org/notes/syncoid-sanoid-zfs), we will design and implement a distributed storage archive system for ZFS volumes and associated metadata. _Metadata_ here refers to key information about the dataset itself:

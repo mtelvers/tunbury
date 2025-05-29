@@ -5,7 +5,7 @@ date:   2019-09-16 13:41:29 +0100
 categories: raspberrypi
 image:
   path: /images/SSH-Keys.png
-  thumbnail: /images/SSH-Keys.png
+  thumbnail: /images/thumbs/SSH-Keys.png
 ---
 This is my cheatsheet based upon [Passwordless SSH access](https://www.raspberrypi.org/documentation/remote-access/ssh/passwordless.md) on the official Raspberry PI website.
 

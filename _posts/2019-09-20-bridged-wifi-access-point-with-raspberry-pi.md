@@ -5,7 +5,7 @@ date:   2019-09-20 13:41:29 +0100
 categories: raspberrypi wifi
 image:
   path: /images/wifi.jpg
-  thumbnail: /images/wifi.jpg
+  thumbnail: /images/thumbs/wifi.jpg
 ---
 
 Run `ifconfig` and determine your network device names. Typically these will be `eth0` and `wlan0`.

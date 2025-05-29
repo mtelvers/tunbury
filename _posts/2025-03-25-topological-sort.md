@@ -6,7 +6,7 @@ categories: OCaml
 tags: tunbury.org
 image:
   path: /images/dune-graph.png
-  thumbnail: /images/dune-graph.png
+  thumbnail: /images/thumbs/dune-graph.png
 ---
 
 Given a list of packages and their dependencies, what order should those packages be installed in?

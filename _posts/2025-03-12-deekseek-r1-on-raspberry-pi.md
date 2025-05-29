@@ -6,7 +6,7 @@ categories: raspberry-pi
 tags: tunbury.org
 image:
   path: /images/pi5.jpg
-  thumbnail: /images/pi5.jpg
+  thumbnail: /images/thumbs/pi5.jpg
 ---
 
 I've heard a lot about Deepseek and wanted to try it for myself.

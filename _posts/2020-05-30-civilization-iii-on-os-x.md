@@ -5,7 +5,7 @@ date:   2020-05-30 13:41:29 +0100
 categories: osx
 image:
   path: /images/Civilization_III_Coverart.png
-  thumbnail: /images/Civilization_III_Coverart.png
+  thumbnail: /images/thumbs/Civilization_III_Coverart.png
 ---
 Install Oracle VirtualBox and install Windows XP 32 bit.
 

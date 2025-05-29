@@ -6,7 +6,7 @@ categories: bluesky
 tags: tunbury.org
 image:
   path: /images/bluesky-logo.png
-  thumbnail: /images/bluesky-logo.png
+  thumbnail: /images/thumbs/bluesky-logo.png
 ---
 
 To setup this up, I'm using a modified version of Anil's [repo](https://tangled.sh/@anil.recoil.org/knot-docker). My repo is [here](https://tangled.sh/@mtelvers.tunbury.org/knot-docker). Firstly, clone the repo and run `gen-key.sh`.

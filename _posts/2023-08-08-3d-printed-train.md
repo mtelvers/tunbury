@@ -6,7 +6,7 @@ categories: 3d-printing
 tags: tunbury.org
 image:
   path: /images/IMG_1920.jpg
-  thumbnail: /images/IMG_1920.jpg
+  thumbnail: /images/thumbs/IMG_1920.jpg
 ---
 
 Creating a new OO train body drawn from scratch in Fusion 360 to minic

@@ -6,7 +6,7 @@ categories: Dell,R640
 tags: tunbury.org
 image:
   path: /images/dell-r640-final.jpg
-  thumbnail: /images/dell-r640-final.jpg
+  thumbnail: /images/thumbs/dell-r640-final.jpg
 ---
 
 Today we have racked the five 14th generation Dell R640 servers and a Dell N4032 switch.

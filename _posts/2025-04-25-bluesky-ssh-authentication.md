@@ -6,7 +6,7 @@ categories: bluesky,sshd
 tags: tunbury.org
 image:
   path: /images/bluesky-logo.png
-  thumbnail: /images/bluesky-logo.png
+  thumbnail: /images/thumbs/bluesky-logo.png
 ---
 
 If you have sign up to [tangled.sh](https://tangled.sh) you will have published your SSH public key on the Bluesky ATproto network.  Have a browse to your Bluesky ID, or [mine](https://www.atproto-browser.dev/at/did:plc:476rmswt6ji7uoxyiwjna3ti). Look under `sh.tangled.publicKey`.
