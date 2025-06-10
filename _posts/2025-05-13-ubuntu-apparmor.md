@@ -76,7 +76,7 @@ This didn’t help - in fact, this was worse as now `runc` couldn’t run at all
 Looking through the profiles with `grep shadow -r /etc/apparmor.d`, I noticed `unix-chkpwd`, which could be the source of the issue. I disabled this profile and the issue was resolved.
 
 ```sh
-ln -s /etc/apparmor.d/unix-chkpwd /etc/apparmor.d/disable/
+ln -s /etc/apparmor.d/unix-chkpwd /etc/apparmor.d/disable
 apparmor_parser -R /etc/apparmor.d/unix-chkpwd
 ```
 
