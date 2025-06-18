@@ -35,7 +35,7 @@ $ ldd main.exe | grep mingw
         libwinpthread-1.dll => /mingw64/bin/libwinpthread-1.dll (0x7ffac4b40000)
 ```
 
-I tried _a lot_ of different variations. I asked Claude... then I asked [@dra27](https://www.dra27.uk/blog/)
+I tried _a lot_ of different variations. I asked Claude... then I asked [@dra27](https://www.dra27.uk/blog/) who recalled @kit-ty-kate working on this for opam. [PR#5680](https://github.com/ocaml/opam/pull/5680)
 
 The issue is the auto-response file, which precedes my static option. We can remove that by adding `-noautolink`, but now we must do all the work by hand and build a massive command line.
 
