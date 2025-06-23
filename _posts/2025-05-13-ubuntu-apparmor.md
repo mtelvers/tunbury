@@ -7,6 +7,7 @@ tags: tunbury.org
 image:
   path: /images/ubuntu.png
   thumbnail: /images/thumbs/ubuntu.png
+permalink: /ubuntu-apparmor/
 ---
 
 Patrick reported issues with OCaml-CI running tests on `ocaml-ppx`.

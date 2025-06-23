@@ -7,6 +7,7 @@ tags: tunbury.org
 image:
   path: /images/openzfs.png
   thumbnail: /images/thumbs/openzfs.png
+permalink: /zfs-replcation-ansible/
 ---
 
 Rather than using the agent-based approach proposed yesterday, it’s worth considering an Ansible-based solution instead.

@@ -7,6 +7,7 @@ tags: tunbury.org
 image:
   path: /images/bluesky-logo.png
   thumbnail: /images/thumbs/bluesky-logo.png
+permalink: /bluesky-ssh-authentication-2/
 ---
 
 Addressing the glaring omissions from yesterday’s proof of concept, such as the fact that you could sign in as any user, you couldn’t revoke access, all hosts had the same users, and there was no mapping between Bluesky handles and POSIX users, I have updated [mtelvers/bluesky-ssh-key-extractor](https://github.com/mtelvers/bluesky-ssh-key-extractor) and newly published [mtelvers/bluesky-collection](https://github.com/mtelvers/bluesky-collection.git). 

@@ -7,6 +7,7 @@ tags: tunbury.org
 image:
   path: /images/sequoia.jpg
   thumbnail: /images/thumbs/sequoia.jpg
+permalink: /macos-sequoia-include-path/
 ---
 
 @mseri raised [issue #175](https://github.com/ocaml/infrastructure/issues/175) as the macOS workers cannot find the most basic C++ headers. I easily eliminated [Obuilder](https://github.com/ocurrent/obuilder), as `opam install mccs.1.1+19` didn't work on the macOS workers natively.

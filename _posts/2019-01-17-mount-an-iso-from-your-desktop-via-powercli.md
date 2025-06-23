@@ -6,6 +6,7 @@ categories: powershell
 image:
   path: /images/PowerCLI.png
   thumbnail: /images/thumbs/PowerCLI.png
+permalink: /mount-an-iso-from-your-desktop-via-powercli/
 ---
 Normally, I’d used a Windows NFS Server to host my ISO files. The steps couldn’t be simpler
 

@@ -6,6 +6,7 @@ categories: jekyll wordpress
 image:
   path: /images/wordpress-to-jekyll.png
   thumbnail: /images/thumbs/wordpress-to-jekyll.png
+permalink: /wordpress-to-jekyll-test/
 ---
 Install the Wordpress plugins *UpdraftPlus*.  Create a new WordPress site and install the *UpdraftPlus* plugin and restore the database.
 

@@ -7,6 +7,7 @@ tags: tunbury.org
 image:
   path: /images/ocaml-logo.png
   thumbnail: /images/thumbs/ocaml-logo.png
+permalink: /windows-reflinks/
 ---
 
 Who knew there was a limit on creating hard links? I didn't even consider this until my hard links started to fail. On NTFS, the limit is 1024 links to any given file. Subsequent research shows that the limit varies between file systems, with NTFS at the lower end of the scale.

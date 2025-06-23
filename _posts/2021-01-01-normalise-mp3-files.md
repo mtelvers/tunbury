@@ -6,6 +6,7 @@ categories: raspberrypi
 image:
   path: /images/mp3gain.png
   thumbnail: /images/thumbs/mp3gain.png
+permalink: /normalise-mp3-files/
 ---
 I have hundreds for MP3 files but the levels aren't standardised in any way which makes streaming them a bit hit and miss.  I can normalise them using [AudaCity](https://www.audacityteam.org/) but I'd really like an automatic way of doing it.
 

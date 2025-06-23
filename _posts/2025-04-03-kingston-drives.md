@@ -7,6 +7,7 @@ tags: tunbury.org
 image:
   path: /images/kingston-forty.png
   thumbnail: /images/thumbs/kingston-forty.png
+permalink: /kingston-drives/
 ---
 
 We have received the second batch of 40 x 7.68TB Kingston SSD drives, bringing the total to 50 drives.

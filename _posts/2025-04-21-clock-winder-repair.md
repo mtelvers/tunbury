@@ -7,6 +7,7 @@ tags: tunbury.org
 image:
   path: /images/aylesford-snap.jpg
   thumbnail: /images/thumbs/aylesford-snap.jpg
+permalink: /clock-winder-repair/
 ---
 
 The galvanised steel wire rope on one of my clock winders has snapped. This is a 3mm rope, so it would have a rating of greater than 500 kg. I am quite surprised that it snapped, as the load on this wire rope is much lower than that of others in use in the same system.

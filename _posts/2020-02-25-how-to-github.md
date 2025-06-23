@@ -6,6 +6,7 @@ categories: juniper
 image:
   path: /images/GitHub-Mark-120px-plus.png
   thumbnail: /images/thumbs/GitHub-Mark-120px-plus.png
+permalink: /how-to-github/
 ---
 I really don’t use GitHub often enough to remember the commands without searching for them each time, which means that I use GitHub even less as I can’t remember the commands. Here’s a short cheat sheet on the most common things I need to do in GitHub.
 

@@ -7,6 +7,7 @@ tags: tunbury.org
 image:
   path: /images/train-controller-photo.png
   thumbnail: /images/thumbs/train-controller-photo.png
+permalink: /arduino-pwm-train-controller/
 ---
 
 # Circuit

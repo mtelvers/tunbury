@@ -6,6 +6,7 @@ categories: bells bash
 image:
   path: /images/bellboard.png
   thumbnail: /images/thumbs/bellboard.png
+permalink: /most-popular-methods/
 ---
 There are ~72,000 Surprise Major performances on Bell Board. Bell Board displays results in pages of 200 performances. Thus we will need to download all the pages and concatenate them into a single file:
 

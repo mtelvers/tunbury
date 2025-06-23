@@ -7,6 +7,7 @@ tags: tunbury.org
 image:
   path: /images/ocaml-logo.png
   thumbnail: /images/thumbs/ocaml-logo.png
+permalink: /recent-ocaml-version/
 ---
 
 Following my [post on discuss.ocaml.org](https://discuss.ocaml.org/t/docker-base-images-and-ocaml-ci-support-for-ocaml-4-08/16229), I have created a new release of [ocurrent/ocaml-version](https://github.com/ocurrent/ocaml-version) that moves the minimum version of OCaml, considered as _recent_, from 4.02 to 4.08.

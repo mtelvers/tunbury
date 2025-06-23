@@ -6,6 +6,7 @@ categories: raspberrypi
 image:
   path: /images/pi-zero.jpg
   thumbnail: /images/thumbs/pi-zero.jpg
+permalink: /raspberry-pi-zero-w-headless-setup/
 ---
 Copy `2019-07-10-raspbian-buster-lite.img` to the SD card with Etcher. Then remove and reinsert the card.
 

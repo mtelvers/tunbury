@@ -6,6 +6,7 @@ categories: powershell
 image:
   path: /images/hl_hi_res.gif
   thumbnail: /images/thumbs/hl_hi_res.gif
+permalink: /which-funds-have-exposure-to-netflix/
 ---
 Dabbling in the markets by way of investment funds is amusing. I use [Hargreaves Lansdown](www.hl.co.uk) to do this. HL have a fund research section which lets you look at a given fund and view the top 10 holdings so you can base your decision to invest in your belief in the underlying stock.
 

@@ -7,6 +7,7 @@ usemathjax: true
 image:
   path: /images/roadnode.png
   thumbnail: /images/thumbs/roadnode.png
+permalink: /shape-files/
 ---
 Below is a perl script to create a PNG from a Shape file.
 

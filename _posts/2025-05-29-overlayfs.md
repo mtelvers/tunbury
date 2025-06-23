@@ -7,6 +7,7 @@ tags: tunbury.org
 image:
   path: /images/orithia-nvme-write-rate.png
   thumbnail: /images/thumbs/orithia-nvme-write-rate.png
+permalink: /overlayfs/
 ---
 
 [OBuilder](https://github.com/ocurrent/obuilder) takes a build script (similar to a Dockerfile) and performs the steps in it in a sandboxed environment. After each step, OBuilder uses the snapshot feature to store the state of the build as a `layer`. Repeating a build will reuse the cached results where possible.

@@ -3,6 +3,7 @@ layout: post
 title:  "Place Notation"
 date:   2016-08-24 13:41:29 +0100
 categories: perl bells
+permalink: /place-notation/
 ---
 Thomas Barlow has taught me place notation using [Strike Back Surprise Major](/downloads/Strike-Back-Surprise-Major.pdf) as the example. The notation for that is `x38x14x58x16x12x38x14.12.78 l.e. 12`. There are plenty of guides online on how to interpret it, such as this one on the [CCCBR website](http://www.cccbr.org.uk/education/thelearningcurve/pdfs/200404.pdf).
 

@@ -7,6 +7,7 @@ tags: tunbury.org
 image:
   path: /images/opam.png
   thumbnail: /images/thumbs/opam.png
+permalink: /opam-repo-ci/
 ---
 
 It's Tuesday morning, and virtually all opam repo ci jobs are failing with timeouts. This comes at a critical time as these are the first jobs following the update of [ocurrent/ocaml-version](https://github.com/ocurrent/ocaml-version) [noted](https://www.tunbury.org/recent-ocaml-version/) on 24th March.

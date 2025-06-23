@@ -7,6 +7,7 @@ tags: tunbury.org
 image:
   path: /images/dune-graph.png
   thumbnail: /images/thumbs/dune-graph.png
+permalink: /topological-sort/
 ---
 
 Given a list of packages and their dependencies, what order should those packages be installed in?

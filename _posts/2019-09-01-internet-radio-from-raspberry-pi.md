@@ -3,6 +3,7 @@ layout: post
 title:  "Internet Radio from Raspberry PI"
 date:   2019-09-01 13:41:29 +0100
 categories: bells raspberrypi
+permalink: /internet-radio-from-raspberry-pi/
 ---
 Install the software packages needed
 

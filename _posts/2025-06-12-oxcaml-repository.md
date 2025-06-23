@@ -7,6 +7,7 @@ tags: tunbury.org
 image:
   path: /images/ocaml-logo.png
   thumbnail: /images/thumbs/ocaml-logo.png
+permalink: /oxcaml-repository/
 ---
 
 This morning, Anil proposed that having an opam-repository that didn't have old versions of the packages that require patches to work with OxCaml would be good.

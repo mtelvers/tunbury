@@ -3,6 +3,7 @@ layout: post
 title:  "Import Text File of events into Apple Calendar using AppleScript"
 date:   2020-02-06 13:41:29 +0100
 categories: applescript
+permalink: /import-text-file-of-events-into-apple-calendar-using-applescript/
 ---
 The Church of England has a very useful [calendar](https://www.churchofengland.org/prayer-and-worship/worship-texts-and-resources/common-worship/prayer-and-worship/worship-texts-and-resources/common-worship/churchs-year/calendar) page, but I’d really like it in my iPhone calendar so I can have reminders for Saints’ days particularly red letter days when the flag goes up.
 

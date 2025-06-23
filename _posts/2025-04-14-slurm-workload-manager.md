@@ -7,6 +7,7 @@ tags: tunbury.org
 image:
   path: /images/slurm.png
   thumbnail: /images/thumbs/slurm.png
+permalink: /slurm-workload-manager/
 ---
 
 Sadiq mentioned `slurm` as a possible way to better schedule the group's compute resources. Many resources are available showing how to create batch jobs for Slurm clusters but far fewer on how to set up a cluster. This is a quick walkthrough of the basic steps to set up a two-node compute cluster on Ubuntu 24.04. Note that `slurmd` and `slurmctld` can run on the same machine.

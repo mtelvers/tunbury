@@ -6,6 +6,7 @@ categories: raspberrypi obs
 image:
   path: /images/in-operation.png
   thumbnail: /images/thumbs/in-operation.png
+permalink: /ratchet-adapter/
 ---
 I want to electrically drive this ratchet mechanism to avoid the manual labour of turning it by hand.  I found a motor with a 1600:1 gearbox on eBay (shipping from China of course) which looks perfect, however it has a 10mm diameter keyed output shaft which doesn't nicely couple to my 3/4" square ratchet shaft.
 

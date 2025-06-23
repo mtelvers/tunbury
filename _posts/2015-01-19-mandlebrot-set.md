@@ -7,6 +7,7 @@ usemathjax: true
 image:
   path: /images/mandelbrot-set-5.png
   thumbnail: /images/thumbs/mandelbrot-set-5.png
+permalink: /mandlebrot-set/
 ---
 
 The Mandelbrot set is created from this very simple formula in which both Z and C are complex numbers.

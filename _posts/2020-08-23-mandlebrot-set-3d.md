@@ -7,6 +7,7 @@ usemathjax: true
 image:
   path: /images/mandelbrot-set-3d.png
   thumbnail: /images/thumbs/mandelbrot-set-3d.png
+permalink: /mandlebrot-set-3d/
 ---
 
 Back in 2015 in one of the earliest posts on this site I wrote about my fascination with the Mandelbrot set.

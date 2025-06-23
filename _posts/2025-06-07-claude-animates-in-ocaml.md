@@ -7,6 +7,7 @@ tags: tunbury.org
 image:
   path: /images/human.png
   thumbnail: /images/thumbs/human.png
+permalink: /claude-animates-in-ocaml/
 ---
 
 In the week, Jon mentioned [UTM](https://mac.getutm.app), which uses Apple's Hypervisor virtualisation framework to run ARM64 operating systems on Apple Silicon. It looked awesome, and the speed of virtualised macOS was fantastic. It also offers x86_64 emulation; we mused how well it would perform running Windows, but found it disappointing.

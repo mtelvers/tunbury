@@ -7,6 +7,7 @@ tags: tunbury.org
 image:
   path: /images/libvirt.png
   thumbnail: /images/thumbs/libvirt.png
+permalink: /libvirt-moves/
 ---
 
 

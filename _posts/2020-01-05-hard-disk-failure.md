@@ -6,6 +6,7 @@ categories: ubuntu
 image:
   path: /images/savvio-10k-sas-disks.jpg
   thumbnail: /images/thumbs/savvio-10k-sas-disks.jpg
+permalink: /hard-disk-failure/
 ---
 Check the status with `sudo mdadm --detail /dev/md0`
 

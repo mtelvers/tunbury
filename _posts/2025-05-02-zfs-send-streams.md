@@ -7,6 +7,7 @@ tags: tunbury.org
 image:
   path: /images/openzfs.png
   thumbnail: /images/thumbs/openzfs.png
+permalink: /zfs-send-streams/
 ---
 
 We often say that ZFS is an excellent replicated file system, but not the best _local_ filesystem. This led me to think that if we run `zfs send` on one machine, we might want to write that out as a different filesystem. Is that even possible?

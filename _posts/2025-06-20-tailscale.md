@@ -7,6 +7,7 @@ tags: tunbury.org
 image:
   path: /images/tailscale-logo.png
   thumbnail: /images/thumbs/tailscale-logo.png
+permalink: /tailscale/
 ---
 
 On a typical day, I sit at my antique Mac Pro Trashcan with every window running SSH to some remote machine. When I'm away from home and using my MacBook, I can still SSH to those remote machines; however, with my recent Windows work, I've been connecting to a Dell OptiPlex on my home LAN over Remote Desktop. How can I work remotely when I want to access my Windows machine?
