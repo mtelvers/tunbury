@@ -7,7 +7,8 @@ tags: tunbury.org
 image:
   path: /images/ubuntu.png
   thumbnail: /images/thumbs/ubuntu.png
-permalink: /ubuntu-cloud-init/
+redirect_from:
+  - /ubuntu-cloud-init/
 ---
 
 Testing cloud-init is painful on real (server) hardware, as the faster the server, the longer it seems to take to complete POST. Therefore, I highly recommend testing with a virtual machine before moving to real hardware.

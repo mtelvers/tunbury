@@ -7,7 +7,8 @@ tags: tunbury.org
 image:
   path: /images/ocaml-logo.png
   thumbnail: /images/thumbs/ocaml-logo.png
-permalink: /ocaml-fedora-gcc/
+redirect_from:
+  - /ocaml-fedora-gcc/
 ---
 
 Late last week, @MisterDA added Fedora 42 support to the [Docker base image builder](https://images.ci.ocaml.org). The new base images attempted to build over the weekend, but there have been a few issues!

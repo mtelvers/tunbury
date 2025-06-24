@@ -7,7 +7,8 @@ tags: tunbury.org
 image:
   path: /images/inveniordm.png
   thumbnail: /images/thumbs/inveniordm.png
-permalink: /inveniordm/
+redirect_from:
+  - /inveniordm/
 ---
 
 [Zenodo](https://github.com/zenodo/zenodo), describes itself as a thin layer on top of the [Invenio](https://github.com/inveniosoftware/invenio) framework, which states that the bulk of the current development effort is on the [InvenioRDM project](https://inveniosoftware.org/products/rdm/). There is a demonstration [instance](https://inveniordm.web.cern.ch) hosted by CERN. Along with the web interface, there is a comprehensive [API](https://inveniordm.docs.cern.ch/install/run/).

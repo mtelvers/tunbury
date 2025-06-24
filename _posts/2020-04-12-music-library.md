@@ -6,7 +6,8 @@ categories: raspberrypi flac
 image:
   path: /images/cd-stack.jpg
   thumbnail: /images/thumbs/cd-stack.jpg
-permalink: /music-library/
+redirect_from:
+  - /music-library/
 ---
 Using a Raspberry PI with a USB CD drive to read all my CDs and create a master, FLAC format, repository and from that create MP3 and AAC versions for the car and iTunes.
 

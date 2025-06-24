@@ -6,7 +6,8 @@ categories: raspberrypi wifi
 image:
   path: /images/wifi.jpg
   thumbnail: /images/thumbs/wifi.jpg
-permalink: /bridged-wifi-access-point-with-raspberry-pi/
+redirect_from:
+  - /bridged-wifi-access-point-with-raspberry-pi/
 ---
 
 Run `ifconfig` and determine your network device names. Typically these will be `eth0` and `wlan0`.

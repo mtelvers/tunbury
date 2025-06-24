@@ -7,7 +7,8 @@ tags: tunbury.org
 image:
   path: /images/sandbox.jpg
   thumbnail: /images/thumbs/sandbox.jpg
-permalink: /windows-sandbox/
+redirect_from:
+  - /windows-sandbox/
 ---
 
 For a long time, we have struggled to match the performance and functionality of `runc` on Windows. Antonin wrote the Docker-based isolation for [ocurrent/obuilder](https://github.com/ocurrent/obuilder) with [PR#127](https://github.com/ocurrent/obuilder/pull/127), and I wrote machine-level isolation using QEMU [PR#195](https://github.com/ocurrent/obuilder/pull/195). Sadly, the most obvious approach of using `runhcs` doesn't work, see [issue#2156](https://github.com/microsoft/hcsshim/issues/2156).

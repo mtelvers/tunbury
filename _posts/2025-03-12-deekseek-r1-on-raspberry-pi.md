@@ -7,7 +7,8 @@ tags: tunbury.org
 image:
   path: /images/pi5.jpg
   thumbnail: /images/thumbs/pi5.jpg
-permalink: /deekseek-r1-on-raspberry-pi/
+redirect_from:
+  - /deekseek-r1-on-raspberry-pi/
 ---
 
 I've heard a lot about Deepseek and wanted to try it for myself.

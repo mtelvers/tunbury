@@ -6,7 +6,8 @@ categories: raspberrypi obs
 image:
   path: /images/via-cpu.jpg
   thumbnail: /images/thumbs/via-cpu.jpg
-permalink: /mini-itx-as-windows-2008-server/
+redirect_from:
+  - /mini-itx-as-windows-2008-server/
 ---
 Unfortunately without a DVD drive and with no capability to boot from USB I’m struggling to get a clean OS on my Mini ITX machine. The internal drive is IDE and I don’t have any other machines with IDE around and I don’t know the password for the installed OS.
 

@@ -7,7 +7,8 @@ tags: tunbury.org
 image:
   path: /images/ocaml-logo.png
   thumbnail: /images/thumbs/ocaml-logo.png
-permalink: /oxcaml-base-images/
+redirect_from:
+  - /oxcaml-base-images/
 ---
 
 As @dra27 suggested, I first added support in [ocurrent/ocaml-version](https://github.com/ocurrent/ocaml-version.git). I went with the name `flambda2`, which matched the name in the `opam` package.

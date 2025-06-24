@@ -7,7 +7,8 @@ tags: tunbury.org
 image:
   path: /images/ocaml-logo.png
   thumbnail: /images/thumbs/ocaml-logo.png
-permalink: /worker-moves/
+redirect_from:
+  - /worker-moves/
 ---
 
 Following the setup of _rosemary_ with [FreeBSD 14](https://www.tunbury.org/freebsd-uefi/) (with 20C/40T), I have paused _spring_ and _summer_ (which combined have 12C/24T) and _rosemary_ is now handling all of the [FreeBSD workload](https://github.com/ocurrent/freebsd-infra/pull/14).

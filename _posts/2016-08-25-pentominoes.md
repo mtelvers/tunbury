@@ -3,7 +3,8 @@ layout: post
 title:  "Pentominoes"
 date:   2016-08-25 13:41:29 +0100
 categories: c
-permalink: /pentominoes/
+redirect_from:
+  - /pentominoes/
 ---
 One day I was clearing out some old papers and I came across this programming assignment from university. I can’t recall which of the problems I tackled at the time, after all it was twenty-five years ago, but glancing over it now the pentomino problem caught my eye
 

@@ -6,7 +6,8 @@ categories: Syncthing OpenBSD
 image:
   path: /images/openbsd-syncthing.png
   thumbnail: /images/thumbs/openbsd-syncthing.png
-permalink: /syncthing-on-openbsd/
+redirect_from:
+  - /syncthing-on-openbsd/
 ---
 
 ## Network Installation of OpenBSD

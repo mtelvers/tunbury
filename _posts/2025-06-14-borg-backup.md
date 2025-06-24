@@ -7,7 +7,8 @@ tags: tunbury.org
 image:
   path: /images/borg-logo.png
   thumbnail: /images/thumbs/borg-logo.png
-permalink: /borg-backup/
+redirect_from:
+  - /borg-backup/
 ---
 
 Our PeerTube installation at [watch.ocaml.org](https://watch.ocaml.org/) holds hundreds of videos we wouldn't want to lose! It's a VM hosted at Scaleway so the chances of a loss are pretty small, but having a second copy would give us extra reassurance. I'm going to use [Borg Backup](https://www.borgbackup.org).

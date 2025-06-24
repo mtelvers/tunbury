@@ -6,7 +6,8 @@ categories: juniper
 image:
   path: /images/SRX100H2.jpg
   thumbnail: /images/thumbs/SRX100H2.jpg
-permalink: /srx-firmware/
+redirect_from:
+  - /srx-firmware/
 ---
 Download the latest version of the software and copy it over to the SRX
 

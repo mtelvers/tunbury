@@ -7,6 +7,8 @@ tags: tunbury.org
 image:
   path: /images/dune-graph.png
   thumbnail: /images/thumbs/dune-graph.png
+redirect_from:
+  - /transitive-reduction/
 ---
 
 I have previously written about using a [topological sort](https://www.tunbury.org/topological-sort/) of a directed acyclic graph (DAG) of package dependencies to create an ordered list of installation operations. I now want to create a transitive reduction, giving a graph with the same vertices and the fewest number of edges possible.

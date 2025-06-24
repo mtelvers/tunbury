@@ -7,7 +7,8 @@ tags: tunbury.org
 image:
   path: /images/equinix.png
   thumbnail: /images/thumbs/equinix.png
-permalink: /equinix-moves/
+redirect_from:
+  - /equinix-moves/
 ---
 
 The moves of registry.ci.dev, opam-repo-ci, and get.dune.build have followed the template of [OCaml-CI](https://www.tunbury.org/ocaml-ci/). Notable differences have been that I have hosted `get.dune.build` in a VM, as the services required very little disk space or CPU/RAM. For opam-repo-ci, the `rsync` was pretty slow, so I tried running multiple instances using GNU parallel with marginal gains.

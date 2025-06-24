@@ -7,7 +7,8 @@ tags: tunbury.org
 image:
   path: /images/otter.png
   thumbnail: /images/thumbs/otter.png
-permalink: /otter-wiki-with-raven/
+redirect_from:
+  - /otter-wiki-with-raven/
 ---
 
 We’d like to have a go using [Otter Wiki](https://otterwiki.com), but rather than having yet more usernames and passwords, we would like to integrate this into the Raven authentication system. There is [guide on using SAML2 with Apache](https://docs.raven.cam.ac.uk/en/latest/apache-saml2/)

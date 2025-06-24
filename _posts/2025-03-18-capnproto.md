@@ -7,7 +7,8 @@ tags: tunbury.org
 image:
   path: /images/capnproto-logo.png
   thumbnail: /images/thumbs/capnproto-logo.png
-permalink: /capnproto/
+redirect_from:
+  - /capnproto/
 ---
 
 Cap’n Proto has become a hot topic recently and while this is used for many OCaml-CI services, I spent some time creating a minimal application.

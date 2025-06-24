@@ -6,7 +6,8 @@ categories: osx
 image:
   path: /images/Civilization_III_Coverart.png
   thumbnail: /images/thumbs/Civilization_III_Coverart.png
-permalink: /civilization-iii-on-os-x/
+redirect_from:
+  - /civilization-iii-on-os-x/
 ---
 Install Oracle VirtualBox and install Windows XP 32 bit.
 

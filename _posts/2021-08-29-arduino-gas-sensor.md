@@ -6,7 +6,8 @@ categories: arduino
 image:
   path: /images/gas-sensor.jpg
   thumbnail: /images/thumbs/gas-sensor.jpg
-permalink: /arduino-gas-sensor/
+redirect_from:
+  - /arduino-gas-sensor/
 ---
 With the current emphasis on ventilation to reduce the risks associated with inhaled droplets it I have put together a simple gas sensor to record concentrations over time.  The output is a `CSV` file which can be graphed in Excel.
 

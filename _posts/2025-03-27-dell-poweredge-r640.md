@@ -7,7 +7,8 @@ tags: tunbury.org
 image:
   path: /images/kingston-768tb.png
   thumbnail: /images/thumbs/kingston-768tb.png
-permalink: /dell-poweredge-r640/
+redirect_from:
+  - /dell-poweredge-r640/
 ---
 
 We have received our first batch of 7.68TB Kingston SSD drives for deployment in some Dell PowerEdge R640 servers, which will be used to create a large storage pool.

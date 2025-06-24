@@ -7,7 +7,8 @@ tags: tunbury.org
 image:
   path: /images/mdadm.jpg
   thumbnail: /images/thumbs/mdadm.jpg
-permalink: /removing-mdadm/
+redirect_from:
+  - /removing-mdadm/
 ---
 
 Cloud providers automatically configure their machines as they expect you to use them. For example, a machine with 4 x 8T disks might come configured with an mdadm RAID5 array spanning the disks. This may be what most people want, but we don’t want this configuration, as we want to see the bare disks. Given you have only a serial console (over SSH) and no access to the cloud-init environment, how do you boot the machine in a different configuration?

@@ -6,7 +6,8 @@ categories: c++
 image:
   path: /images/latin-square.png
   thumbnail: /images/thumbs/latin-square.png
-permalink: /latin-square/
+redirect_from:
+  - /latin-square/
 ---
 Looking at the latest video from Presh Talwalkar about solving the Latin square where each row is the first row multiplied by the row number I decided it was time to see if I could remember any C++ and code a solution.
 

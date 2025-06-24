@@ -4,7 +4,8 @@ title:  "Narcissistic Numbers"
 date:   2014-01-02 13:41:29 +0100
 categories: perl
 usemathjax: true
-permalink: /narcissistic-numbers/
+redirect_from:
+  - /narcissistic-numbers/
 ---
 
 I heard about these on [BBC Radio 4 More or

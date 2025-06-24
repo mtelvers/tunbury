@@ -7,7 +7,8 @@ tags: tunbury.org
 image:
   path: /images/ocaml-logo.png
   thumbnail: /images/thumbs/ocaml-logo.png
-permalink: /static-linking/
+redirect_from:
+  - /static-linking/
 ---
 
 

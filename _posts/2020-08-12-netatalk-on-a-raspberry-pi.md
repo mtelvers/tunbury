@@ -3,7 +3,8 @@ layout: post
 title:  "Netatalk on a Raspberry PI"
 date:   2020-08-12 13:41:29 +0100
 categories: raspberrypi
-permalink: /netatalk-on-a-raspberry-pi/
+redirect_from:
+  - /netatalk-on-a-raspberry-pi/
 ---
 Using the [Raspberry PI imager application](https://www.raspberrypi.org/downloads/) copy the Raspberry PI OS Lite to an SD card. Then remove and reinsert the card.
 

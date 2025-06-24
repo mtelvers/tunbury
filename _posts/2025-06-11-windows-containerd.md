@@ -7,7 +7,8 @@ tags: tunbury.org
 image:
   path: /images/containerd.png
   thumbnail: /images/thumbs/containerd.png
-permalink: /windows-containerd/
+redirect_from:
+  - /windows-containerd/
 ---
 
 The tricky part of using [runhcs](https://github.com/microsoft/hcsshim/issues/2156) has been getting the layers correct. While I haven't had any luck, I have managed to created Windows containers using `ctr` and `containerd`.

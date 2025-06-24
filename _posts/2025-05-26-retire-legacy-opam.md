@@ -7,7 +7,8 @@ tags: tunbury.org
 image:
   path: /images/opam.png
   thumbnail: /images/thumbs/opam.png
-permalink: /retire-legacy-opam/
+redirect_from:
+  - /retire-legacy-opam/
 ---
 
 On the eve of the release of opam 2.4, is it time to stop testing with opam < 2.2?

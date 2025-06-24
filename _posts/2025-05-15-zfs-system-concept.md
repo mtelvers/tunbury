@@ -7,7 +7,8 @@ tags: tunbury.org
 image:
   path: /images/openzfs.png
   thumbnail: /images/thumbs/openzfs.png
-permalink: /zfs-system-concept/
+redirect_from:
+  - /zfs-system-concept/
 ---
 
 

@@ -7,7 +7,8 @@ tags: tunbury.org
 image:
   path: /images/gnu.png
   thumbnail: /images/thumbs/gnu.png
-permalink: /gnu-parallel/
+redirect_from:
+  - /gnu-parallel/
 ---
 
 If you haven't used it before, or perhaps it has been so long that it has been swapped out to disk, let me commend GNU's [Parallel](https://www.gnu.org/software/parallel/parallel.html) to you.

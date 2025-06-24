@@ -6,7 +6,8 @@ categories: powershell
 image:
     path: /images/prime-numbers.jpg
     thumbnail: /images/thumbs/prime-numbers.jpg
-permalink: /prime-numbers-in-powershell/
+redirect_from:
+  - /prime-numbers-in-powershell/
 ---
 Dylan was using a number square to calculate prime numbers so it amused me to code up a couple of algorithms to show just how quick the sieve method actually is. I’ve done these in PowerShell because … reasons.
 

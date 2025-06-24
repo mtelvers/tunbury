@@ -7,7 +7,8 @@ tags: tunbury.org
 image:
   path: /images/opam.png
   thumbnail: /images/thumbs/opam.png
-permalink: /update-opam-repo-ci/
+redirect_from:
+  - /update-opam-repo-ci/
 ---
 
 This is a high-level view of the steps required to update [ocaml-repo-ci](https://opam.ci.ocaml.org) to use a new OCaml version.

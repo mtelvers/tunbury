@@ -3,7 +3,8 @@ layout: post
 title:  "Splicing Three Strand Rope"
 date:   2016-11-21 13:41:29 +0100
 categories: bells
-permalink: /splicing-three-strand-rope/
+redirect_from:
+  - /splicing-three-strand-rope/
 ---
 My sudden interest in rope splicing stems entirely from bell ropes. There seems to be three, perhaps four, splices to learn for this application. Links below to YouTube videos explaining how to do them:
 

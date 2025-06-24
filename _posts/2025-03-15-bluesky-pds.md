@@ -7,7 +7,8 @@ tags: tunbury.org
 image:
   path: /images/bluesky-logo.png
   thumbnail: /images/thumbs/bluesky-logo.png
-permalink: /bluesky-pds/
+redirect_from:
+  - /bluesky-pds/
 ---
 
 Today I have set up my own Bluesky (PDS) Personal Data Server.

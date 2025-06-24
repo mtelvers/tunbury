@@ -7,7 +7,8 @@ tags: tunbury.org
 image:
   path: /images/raptor-talos-ii.jpg
   thumbnail: /images/thumbs/raptor-talos-ii.jpg
-permalink: /raptor-talos-ii-update/
+redirect_from:
+  - /raptor-talos-ii-update/
 ---
 
 

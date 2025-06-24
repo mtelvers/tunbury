@@ -7,7 +7,8 @@ usemathjax: true
 image:
   path: /images/65000.png
   thumbnail: /images/thumbs/65000.png
-permalink: /square-root/
+redirect_from:
+  - /square-root/
 ---
 As a first step in calculating a square root look at the order of magnitude of the number and this will quickly allow the determination of the number of digits in the solution. Consider squaring numbers less than 10; the solutions will be less than 100. Squaring numbers less than 100 gives solutions less than 10,000 and numbers less than 1,000 will square to numbers less than 1,000,000 etc. In general terms the square root of a number with an even number of digits will have half the number of digits as the original number. For numbers with an odd number of digits then the solution will have one more than half the number of digits.
 

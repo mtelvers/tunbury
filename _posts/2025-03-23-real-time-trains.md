@@ -7,7 +7,8 @@ tags: tunbury.org
 image:
   path: /images/rtt.png
   thumbnail: /images/thumbs/rtt.png
-permalink: /real-time-trains/
+redirect_from:
+  - /real-time-trains/
 ---
 
 After the Heathrow substation electrical fire, I found myself in Manchester with a long train ride ahead.  Checking on [Real Time Trains](https://www.realtimetrains.co.uk) for the schedule I noticed that they had an API.  With time to spare, I registered for an account and downloaded the sample code from [ocaml-cohttp](https://github.com/mirage/ocaml-cohttp).

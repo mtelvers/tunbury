@@ -6,7 +6,8 @@ categories: powershell snmp
 image:
   path: /images/pssnmp.png
   thumbnail: /images/thumbs/pssnmp.png
-permalink: /powershell-snmp/
+redirect_from:
+  - /powershell-snmp/
 ---
 Potentially, I’ve got a bit carried away here. There isn’t a native PowerShell module to query SNMP which I found a bit surprising. How hard could it be? I’ve got a SYSLOG server and client in PowerShell so this felt like a simple extension. The SNMP client needs to send a request over UDP to the SNMP server on port 161 and waits for the response back. Sending via .NET’s UDPClient is easy enough
 

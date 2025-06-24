@@ -6,7 +6,8 @@ categories: raspberrypi
 image:
   path: /images/USB-Thermometer.jpg
   thumbnail: /images/thumbs/USB-Thermometer.jpg
-permalink: /temper-usb-temperature-sensor/
+redirect_from:
+  - /temper-usb-temperature-sensor/
 ---
 
 These USB sensors are available pretty cheaply from PiHut and Amazon and

@@ -6,7 +6,8 @@ categories: raspberrypi
 image:
   path: /images/pi-obs.png
   thumbnail: /images/thumbs/pi-obs.png
-permalink: /raspberry-pi-as-rtsp-source-for-obs/
+redirect_from:
+  - /raspberry-pi-as-rtsp-source-for-obs/
 ---
 Using the new [Raspberry Pi Imager](https://www.raspberrypi.org/downloads/) I’ve installed the latest Raspberry Pi OS Lite (32 bit).
 

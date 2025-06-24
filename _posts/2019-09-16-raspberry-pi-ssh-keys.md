@@ -6,7 +6,8 @@ categories: raspberrypi
 image:
   path: /images/SSH-Keys.png
   thumbnail: /images/thumbs/SSH-Keys.png
-permalink: /raspberry-pi-ssh-keys/
+redirect_from:
+  - /raspberry-pi-ssh-keys/
 ---
 This is my cheatsheet based upon [Passwordless SSH access](https://www.raspberrypi.org/documentation/remote-access/ssh/passwordless.md) on the official Raspberry PI website.
 

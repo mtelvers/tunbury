@@ -7,7 +7,8 @@ tags: tunbury.org
 image:
   path: /images/containerd.png
   thumbnail: /images/thumbs/containerd.png
-permalink: /windows-containerd-2/
+redirect_from:
+  - /windows-containerd-2/
 ---
 
 

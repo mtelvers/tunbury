@@ -6,7 +6,8 @@ categories: ubuntu minecraft
 image:
   path: /images/minecraft_cover.png
   thumbnail: /images/thumbs/minecraft_cover.png
-permalink: /minecraft-java-edition-server-on-ubuntu-18-04/
+redirect_from:
+  - /minecraft-java-edition-server-on-ubuntu-18-04/
 ---
 See [How to install a Minecraft Bedrock Server on Ubuntu](https://linuxize.com/post/how-to-install-minecraft-server-on-ubuntu-18-04/)
 

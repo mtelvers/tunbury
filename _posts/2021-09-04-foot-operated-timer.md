@@ -7,7 +7,8 @@ tags: tunbury.org
 image:
   path: /images/foot-operated-timer.jpg
   thumbnail: /images/thumbs/foot-operated-timer.jpg
-permalink: /foot-operated-timer/
+redirect_from:
+  - /foot-operated-timer/
 ---
 At the end of a quarter peal there is always the question of how long it took and whether anyone really noted the start time.  Mike proposed a foot operated timer.
 

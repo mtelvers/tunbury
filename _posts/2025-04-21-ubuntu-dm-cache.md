@@ -7,7 +7,8 @@ tags: tunbury.org
 image:
   path: /images/ubuntu.png
   thumbnail: /images/thumbs/ubuntu.png
-permalink: /ubuntu-dm-cache/
+redirect_from:
+  - /ubuntu-dm-cache/
 ---
 
 [dm-cache](https://en.wikipedia.org/wiki/Dm-cache) has been part of the mainline Linux kernel for over a decade, making it possible for faster SSD and NVMe drives to be used as a cache within a logical volume. [This technology brief from Dell](https://videos.cdn.redhat.com/summit2015/presentations/17856_getting-the-most-out-of-your-nvme-ssd.pdf) gives a good overview of `dm-cache` and the performance benefits. Skip to the graph on page 25, noting the logarithmic scale.
