@@ -11,7 +11,7 @@ image:
 
 On a suggestion from Michael, I have had a quick look at [BON in a Box](https://geo-bon.github.io/bon-in-a-box-pipeline-engine/), which is a web-based biodiversity analysis platform using Docker containerised pipelines running R, Julia, and Python scripts.
 
-It could be easier to get started. Install Docker and Docker Compose, and make sure you can access GitHub via SSH using a public key. [Run `ssh-keygen -t ed25519` and then publish the resulting `~/.ssh/id_ed25519.pub` to your GitHub account.]
+It couldn't be easier to get started. Install Docker and Docker Compose, and make sure you can access GitHub via SSH using a public key. [Run `ssh-keygen -t ed25519` and then publish the resulting `~/.ssh/id_ed25519.pub` to your GitHub account.]
 
 ```sh
 apt install docker.io docker-compose-v2
