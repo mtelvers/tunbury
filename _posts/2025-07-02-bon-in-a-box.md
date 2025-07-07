@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "BON in a Box"
-date: 2025-07-01 00:00:00 +0000
+date: 2025-07-02 00:00:00 +0000
 categories: geobon
 tags: tunbury.org
 image:
