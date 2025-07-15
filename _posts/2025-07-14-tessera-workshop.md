@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Teserra Workshop"
+title:  "Tessera Workshop"
 date:   2025-07-14 00:00:00 +0000
 categories: jupyter
 image:
