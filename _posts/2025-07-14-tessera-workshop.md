@@ -122,3 +122,35 @@ volumes:
   tessera_data:
 ```
 
+Reset UFW to defaults
+
+```sh
+ufw --force reset
+```
+
+Set default policies
+
+```sh
+ufw default deny incoming
+ufw default allow outgoing
+```
+
+Allow SSH and HTTP(S) services
+
+```sh
+ufw allow ssh
+ufw allow http
+ufw allow https
+```
+
+Enable UFW
+
+```sh
+ufw enable
+```
+
+Check status
+
+```sh
+ufw status verbose
+```
