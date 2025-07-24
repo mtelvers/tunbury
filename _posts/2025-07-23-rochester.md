@@ -54,5 +54,11 @@ My slicer of choice is [UltiMaker Cura](https://ultimaker.com/software/ultimaker
 
 ![](/images/prusaslicer.png)
 
-![](/images/printing.png)
+Printing in progress...
+
+![](/images/rochester-printing.png)
+
+The final model.
+
+![](/images/rochester-printed.png)
 
