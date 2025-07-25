@@ -100,7 +100,7 @@ Unfortunately, the build still does not complete successfully. When Dune Package
 
 I tried to split the build by creating a .opam file which contained just `ocaml` and `cmarkit`, but this meant running `dune pkg lock` a second time, and that caused me to run straight into [issue #11644](https://github.com/ocaml/dune/issues/11644).
 
-Perhaps I can patch `hilite` to make Dune Package Management deal with it as opam does? Jon commented earlier that `cmarkit` is listed as a `with-test` dependency. opam would use it if it were present, but perhaps Dune Package Management needs to be explicitly told that it can? I will add `cmarkit` as an optional dependency - I added `mdx` as well for good measure.
+Perhaps I can patch `hilite` to make Dune Package Management deal with it as opam does? Jon commented earlier that `cmarkit` is listed as a `with-test` dependency. opam would use it if it were present, but perhaps Dune Package Management needs to be explicitly told that it can? I will add `cmarkit` as an optional dependency.
 
 ```
 depends: [
@@ -111,7 +111,6 @@ depends: [
   "odoc" {with-doc}
 ]
 depopts: [
-  "mdx" {>= "2.4.1"}
   "cmarkit" {>= "0.3.0"}
 ]
 ```
