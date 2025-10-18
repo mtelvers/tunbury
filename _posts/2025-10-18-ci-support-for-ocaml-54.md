@@ -13,7 +13,7 @@ Following the release of [OCaml 5.4](https://ocaml.org/releases/5.4.0) the CI sy
 
 This process starts with the update of [ocaml-version](https://github.com/ocurrent/ocaml-version), which Octachron added through [PR#85](https://github.com/ocurrent/ocaml-version/pull/85).
 
-The base images now need to be updated, which consists of updating the [base image builder](https://images.ci.ocaml.org), [macos-infra](https://github.com/ocaml/macos-infra) and [freebsd-infra](https://github.com/ocurrent/freebsd-infra). The latter two are Ansible scripts [PR#57](https://github.com/ocurrent/macos-infra/pull/57) for macOS and [PR#19](https://github.com/ocurrent/freebsd-infra/pull/19) for FreeBSD.
+The base images now need to be updated, which consists of updating the [base image builder](https://images.ci.ocaml.org), [macos-infra](https://github.com/ocaml/macos-infra) and [freebsd-infra](https://github.com/ocurrent/freebsd-infra). The latter two are Ansible scripts [PR#57](https://github.com/ocurrent/macos-infra/pull/57) for macOS and [PR#19](https://github.com/ocurrent/freebsd-infra/pull/19) for FreeBSD. New base images are also required for OpenBSD 7.7 and Windows Server 2022. This needs minor edits to the `Makefile`,  which are included in [PR#201](https://github.com/ocurrent/obuilder/pull/201).
 
 The base image builder was updated with [PR#335](https://github.com/ocurrent/docker-base-images/pull/335) which pulled in the latest [ocaml-version](https://github.com/ocurrent/ocaml-version) and [ocaml-dockerfile](https://github.com/ocurrent/ocaml-dockerfile). [ocaml-dockerfile](https://github.com/ocurrent/ocaml-dockerfile) contains the build instructions for the base images across different OS distributions and architectures as Dockerfiles.
 
@@ -102,3 +102,5 @@ Additionally, Anil suggested dropping support for Debian 11, Oracle Linux 8 and 
 Now that the base images have been successfully built, I can continue with the updates to [ocurrent/opam-repo-ci](https://github.com/ocurrent/opam-repo-ci) with [PR#460](https://github.com/ocurrent/opam-repo-ci/pull/460), which only needs the opam repository SHA updated to include the new release of ocaml-version.
 
 [ocurrent/ocaml-ci](https://github.com/ocurrent/ocaml-ci) uses git submodules for these packages, so these need to be updated: [PR#1042](https://github.com/ocurrent/ocaml-ci/pull/1032).
+
+
