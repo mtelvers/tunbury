@@ -164,6 +164,17 @@ ceph osd pool set cephfs_metadata size 2
 ceph osd pool set cephfs_data_fast size 2
 ```
 
+Create CRUSH rules to allocate the data correctly and apply them to the pools.
+
+```
+ceph osd crush rule create-erasure cephfs_data_archive_osd ec83profile
+ceph osd crush rule create-replicated fast_ssd_rule default osd ssd
+
+ceph osd pool set cephfs_data_fast crush_rule fast_ssd_rule
+ceph osd pool set cephfs_metadata crush_rule fast_ssd_rule
+ceph osd pool set cephfs_data_archive crush_rule cephfs_data_archive
+```
+
 Allow CephFS to use the pools
 ```
 ceph osd pool application enable cephfs_metadata cephfs
@@ -190,10 +201,26 @@ ceph orch apply mds cephfs
 
 CephFS warns about having the root of the file system on an erasure coding disk hence we use the fast disk as the root and map the other pool to a specific directory.
 
-After mounting the filesystem, create an archive directory and set its layout:
+Get your admin key
+```
+ceph auth get-key client.admin
+```
+
+On a client machine, mount CephFS
+```
+mkdir -p /mnt/cephfs
+mount -t ceph host226:6789,host190:6789:/ /mnt/cephfs -o name=admin,secret=YOUR_KEY_HERE
+```
+
+Create and configure the archive directory
 ```
 mkdir /mnt/cephfs/archive
 setfattr -n ceph.dir.layout.pool -v cephfs_data_archive /mnt/cephfs/archive
+```
+
+Verify it worked
+```
+getfattr -n ceph.dir.layout.pool /mnt/cephfs/archive
 ```
 
 This ensures new files in `/archive` use the erasure-coded pool on the large disks, while the root uses the replicated fast pool.
