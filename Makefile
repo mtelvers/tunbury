@@ -9,7 +9,7 @@ images/thumbs/%: images/%
 	convert "$<" -resize 305x229 -background white -gravity center -extent 305x229 -quality 80 "$@"
 
 all:	$(THUMBS)
-	bundle exec -- jekyll serve --port 8001
+	bundle exec -- jekyll serve --port 8000
 
 build:
 	bundle exec -- jekyll build
