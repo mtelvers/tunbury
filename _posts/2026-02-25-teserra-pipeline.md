@@ -9,7 +9,7 @@ image:
   thumbnail: /images/thumbs/new_delhi_pca.png
 ---
 
-Main for my future reference here is a walk-through of the Teserra pipeline.
+Mainly for my future reference here is a walk-through of the Teserra pipeline.
 
 # Data Sources and Acronyms
 
