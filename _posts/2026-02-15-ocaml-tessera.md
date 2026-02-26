@@ -24,7 +24,7 @@ Looking at the Python code, these are the key libraries which are used:
 
 # numpy
 
-Last year, when I first looked at the Teserra titles, I wrote [mtelvers/npy-pca](https://github.com/mtelvers/npy-pca) as a basic visualisation tool that included an npy reader. Now, I have spun that off into its own library [mtelvers/ocaml-npy](https://github.com/mtelvers/ocaml-npy). I subsequently noticed that there already was [LaurentMazare/npy-ocaml](https://github.com/LaurentMazare/npy-ocaml) which may have saved me some time!
+Last year, when I first looked at the Tessera titles, I wrote [mtelvers/npy-pca](https://github.com/mtelvers/npy-pca) as a basic visualisation tool that included an npy reader. Now, I have spun that off into its own library [mtelvers/ocaml-npy](https://github.com/mtelvers/ocaml-npy). I subsequently noticed that there already was [LaurentMazare/npy-ocaml](https://github.com/LaurentMazare/npy-ocaml) which may have saved me some time!
 
 # pystac-client and planetary-computer
 

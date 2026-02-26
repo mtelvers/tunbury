@@ -1,15 +1,15 @@
 ---
 layout: post
-title: "Teserra Pipeline"
+title: "Tessera Pipeline"
 date: 2026-02-25 20:45:00 +0000
-categories: teserra
+categories: tessera
 tags: tunbury.org
 image:
   path: /images/new_delhi_pca.png
   thumbnail: /images/thumbs/new_delhi_pca.png
 ---
 
-Mainly for my future reference here is a walk-through of the Teserra pipeline.
+Mainly for my future reference here is a walk-through of the Tessera pipeline.
 
 # Data Sources and Acronyms
 
