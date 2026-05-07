@@ -2,7 +2,7 @@
 layout: post
 title:  "Bridged WiFi Access Point with Raspberry Pi"
 date:   2019-09-20 13:41:29 +0100
-categories: raspberrypi wifi
+categories: [raspberrypi, wifi]
 image:
   path: /images/wifi.jpg
   thumbnail: /images/thumbs/wifi.jpg

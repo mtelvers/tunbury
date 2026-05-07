@@ -2,7 +2,7 @@
 layout: post
 title:  "3D Printing PointCloud Data"
 date:   2025-07-23 00:00:00 +0000
-categories: 3dprinting
+categories: 3d-printing
 tags: tunbury.org
 image:
   path: /images/rochester-3d.png

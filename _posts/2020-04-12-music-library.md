@@ -2,7 +2,7 @@
 layout: post
 title:  "Music Library"
 date:   2020-04-12 13:41:29 +0100
-categories: raspberrypi flac
+categories: [raspberrypi, flac]
 image:
   path: /images/cd-stack.jpg
   thumbnail: /images/thumbs/cd-stack.jpg

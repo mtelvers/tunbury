@@ -2,7 +2,7 @@
 layout: post
 title: "The CVE fix that broke CI"
 date: 2026-04-09 14:30:00 +0000
-categories: ocaml,ci
+categories: [ocaml, ci]
 tags: tunbury.org
 image:
   path: /images/ocaml-logo.png

@@ -2,7 +2,7 @@
 layout: post
 title: "Otter Wiki with Raven Authentication"
 date: 2025-05-07 12:00:00 +0000
-categories: Otter,Raven
+categories: [otter, raven]
 tags: tunbury.org
 image:
   path: /images/otter.png

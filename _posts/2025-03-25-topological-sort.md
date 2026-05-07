@@ -2,7 +2,7 @@
 layout: post
 title:  "Topological Sort of Packages"
 date:   2025-03-25 00:00:00 +0000
-categories: OCaml
+categories: ocaml
 tags: tunbury.org
 image:
   path: /images/dune-graph.png

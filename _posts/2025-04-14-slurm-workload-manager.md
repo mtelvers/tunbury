@@ -2,7 +2,7 @@
 layout: post
 title:  "Slurm Workload Manager"
 date:   2025-04-14 00:00:00 +0000
-categories: Slurm
+categories: slurm
 tags: tunbury.org
 image:
   path: /images/slurm.png

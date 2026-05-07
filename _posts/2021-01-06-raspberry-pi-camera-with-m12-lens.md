@@ -1,8 +1,8 @@
-﻿---
+---
 layout: post
 title:  "Raspberry PI Camera with M12 Lens"
 date:   2021-01-06 13:41:29 +0100
-categories: raspberrypi obs
+categories: [raspberrypi, obs]
 image:
   path: /images/pi-camera-m12-2.jpg
   thumbnail: /images/thumbs/pi-camera-m12-2.jpg

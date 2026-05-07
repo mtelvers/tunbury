@@ -2,7 +2,7 @@
 layout: post
 title: "Surprising C++ failures in the macOS workers"
 date: 2025-06-21 00:00:00 +0000
-categories: macos,clang
+categories: [macos, clang]
 tags: tunbury.org
 image:
   path: /images/sequoia.jpg

@@ -2,7 +2,7 @@
 layout: post
 title:  "Minecraft Java Edition Server on Ubuntu 18.04"
 date:   2020-04-18 13:41:29 +0100
-categories: ubuntu minecraft
+categories: [ubuntu, minecraft]
 image:
   path: /images/minecraft_cover.png
   thumbnail: /images/thumbs/minecraft_cover.png

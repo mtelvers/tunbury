@@ -2,7 +2,7 @@
 layout: post
 title: "opam-repo-ci and OCaml significant versions"
 date: 2026-04-27 07:30:00 +0000
-categories: ocaml,opam-repo-ci
+categories: [ocaml, opam-repo-ci]
 tags: tunbury.org
 image:
   path: /images/ocaml-logo.png

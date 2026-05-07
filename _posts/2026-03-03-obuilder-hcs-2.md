@@ -2,7 +2,7 @@
 layout: post
 title: "OCaml-CI and native Windows builds"
 date: 2026-03-03 22:20:00 +0000
-categories: ocaml-ci,obuilder
+categories: [ocaml-ci, obuilder]
 tags: tunbury.org
 image:
   path: /images/ocaml-logo.png

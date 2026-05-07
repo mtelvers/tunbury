@@ -2,7 +2,7 @@
 layout: post
 title: "TESSERA and Zarr"
 date: 2025-11-30 22:50:00 +0000
-categories: tessera,zarr
+categories: [tessera, zarr]
 tags: tunbury.org
 image:
   path: /images/embedding_pca.png

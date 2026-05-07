@@ -2,7 +2,7 @@
 layout: post
 title:  "Deepseek R1 on a Raspberry Pi"
 date:   2025-03-12 21:15:00 +0100
-categories: raspberry-pi
+categories: raspberrypi
 tags: tunbury.org
 image:
   path: /images/pi5.jpg

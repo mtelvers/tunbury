@@ -2,7 +2,7 @@
 layout: post
 title: "Tile Server"
 date: 2025-12-02 20:00:00 +0000
-categories: tessera,stac
+categories: [tessera, stac]
 tags: tunbury.org
 image:
   path: /images/meighen-island.png

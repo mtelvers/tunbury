@@ -2,7 +2,7 @@
 layout: post
 title: "OCaml on a Raspberry Pi"
 date: 2025-11-15 22:00:00 +0000
-categories: ocaml,raspberry-pi
+categories: [ocaml, raspberrypi]
 tags: tunbury.org
 image:
   path: /images/raspberry-pi-logo.png

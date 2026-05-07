@@ -2,7 +2,7 @@
 layout: post
 title:  "Scaleway Elastic Metal Reconfiguration"
 date:   2025-10-31 12:00:00 +0000
-categories: Scaleway
+categories: scaleway
 tags: tunbury.org
 image:
   path: /images/scaleway-logo.png

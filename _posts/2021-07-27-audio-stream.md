@@ -2,7 +2,7 @@
 layout: post
 title:  "Audio Stream from a Raspberry PI"
 date:   2021-07-27 20:41:29 +0100
-categories: raspberrypi obs
+categories: [raspberrypi, obs]
 image:
   path: /images/pi-zerow-usb-audio.jpg
   thumbnail: /images/thumbs/pi-zerow-usb-audio.jpg

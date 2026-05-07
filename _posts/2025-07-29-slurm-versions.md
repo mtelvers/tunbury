@@ -2,7 +2,7 @@
 layout: post
 title:  "Slurm Versions"
 date:   2025-07-29 00:00:00 +0000
-categories: Slurm
+categories: slurm
 tags: tunbury.org
 image:
   path: /images/slurm.png

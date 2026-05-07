@@ -2,7 +2,7 @@
 layout: post
 title: "How big is Europe?"
 date: 2026-03-21 18:20:00 +0000
-categories: ocaml,tessera
+categories: [ocaml, tessera]
 tags: tunbury.org
 image:
   path: /images/coverage_2024_diff_europe.png

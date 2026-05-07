@@ -2,7 +2,7 @@
 layout: post
 title:  "Transitive Reduction of Package Graph"
 date:   2025-06-23 00:00:00 +0000
-categories: OCaml
+categories: ocaml
 tags: tunbury.org
 image:
   path: /images/dune-graph.png

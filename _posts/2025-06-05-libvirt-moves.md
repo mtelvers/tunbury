@@ -2,7 +2,7 @@
 layout: post
 title: "Moving libvirt machines"
 date: 2025-06-04 00:00:00 +0000
-categories: libvirt,qemu
+categories: [libvirt, qemu]
 tags: tunbury.org
 image:
   path: /images/libvirt.png

@@ -2,7 +2,7 @@
 layout: post
 title: "FreeBSD unionfs deadlock"
 date: 2025-09-17 12:00:00 +0000
-categories: FreeBSD,unionfs
+categories: [freebsd, unionfs]
 tags: tunbury.org
 image:
   path: /images/freebsd-logo.png

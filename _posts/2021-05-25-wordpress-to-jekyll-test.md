@@ -2,7 +2,7 @@
 layout: post
 title:  "WordPress to Jekyll Test"
 date:   2021-05-25 13:41:29 +0100
-categories: jekyll wordpress
+categories: [jekyll, wordpress]
 image:
   path: /images/wordpress-to-jekyll.png
   thumbnail: /images/thumbs/wordpress-to-jekyll.png

@@ -2,7 +2,7 @@
 layout: post
 title: "Apache Parquet Files"
 date: 2025-09-17 21:00:00 +0000
-categories: apache,parquet
+categories: [apache, parquet]
 tags: tunbury.org
 image:
   path: /images/apache-parquet-logo.png

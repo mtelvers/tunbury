@@ -2,7 +2,7 @@
 layout: post
 title: "Hardlinks and Reflinks on Windows"
 date: 2025-06-18 00:00:00 +0000
-categories: OCaml,Windows
+categories: [ocaml, windows]
 tags: tunbury.org
 image:
   path: /images/ocaml-logo.png

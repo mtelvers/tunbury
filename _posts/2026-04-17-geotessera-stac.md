@@ -2,7 +2,7 @@
 layout: post
 title: "Building a STAC server to avoid scanning 3.8 million tiles"
 date: 2026-04-17 16:30:00 +0000
-categories: tessera,ocaml
+categories: [tessera, ocaml]
 tags: tunbury.org
 image:
   path: /images/tessera-globe.png

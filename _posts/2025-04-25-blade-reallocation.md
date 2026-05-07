@@ -2,7 +2,7 @@
 layout: post
 title:  "Blade Server Reallocation"
 date:   2025-04-25 10:15:00 +0000
-categories: OCaml
+categories: ocaml
 tags: tunbury.org
 image:
   path: /images/supermicro.png

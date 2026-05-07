@@ -2,7 +2,7 @@
 layout: post
 title: "Animating 3D models in OCaml with Claude"
 date: 2025-06-07 00:00:00 +0000
-categories: claude,collada,gltf
+categories: [claude, collada, gltf]
 tags: tunbury.org
 image:
   path: /images/human.png

@@ -2,7 +2,7 @@
 layout: post
 title: "Weird Windows container version numbers"
 date: 2026-05-05 09:00:00 +0000
-categories: ocaml,ci,windows
+categories: [ocaml, ci, windows]
 tags: tunbury.org
 image:
   path: /images/docker-base-images-error.png

@@ -2,7 +2,7 @@
 layout: post
 title:  "Dell PowerEdge R640 Storage Server"
 date:   2025-03-27 00:00:00 +0000
-categories: Dell
+categories: dell
 tags: tunbury.org
 image:
   path: /images/kingston-768tb.png

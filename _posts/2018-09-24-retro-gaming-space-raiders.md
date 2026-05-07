@@ -2,7 +2,7 @@
 layout: post
 title:  "Retro Gaming: Space Raiders"
 date:   2018-09-24 13:41:29 +0100
-categories: specturm raspberrypi
+categories: [spectrum, raspberrypi]
 image:
   path: /images/space-raiders.jpg
   thumbnail: /images/thumbs/space-raiders.jpg

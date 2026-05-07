@@ -2,7 +2,7 @@
 layout: post
 title:  "Most Popular Methods"
 date:   2019-02-28 13:41:29 +0100
-categories: bells bash
+categories: [bells, bash]
 image:
   path: /images/bellboard.png
   thumbnail: /images/thumbs/bellboard.png

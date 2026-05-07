@@ -2,7 +2,7 @@
 layout: post
 title:  "Recent OCaml Versions"
 date:   2025-03-24 00:00:00 +0000
-categories: OCaml
+categories: ocaml
 tags: tunbury.org
 image:
   path: /images/ocaml-logo.png

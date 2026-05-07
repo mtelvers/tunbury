@@ -2,7 +2,7 @@
 layout: post
 title: "Reconfiguring a system with an mdadm RAID5 root"
 date: 2025-05-01 12:00:00 +0000
-categories: mdadm,ubuntu
+categories: [mdadm, ubuntu]
 tags: tunbury.org
 image:
   path: /images/mdadm.jpg

@@ -2,7 +2,7 @@
 layout: post
 title: "Terminal GUI for ocluster monitoring"
 date: 2025-08-24 00:00:00 +0000
-categories: ocaml,notty
+categories: [ocaml, notty]
 tags: tunbury.org
 image:
   path: /images/ocluster-monitor.png

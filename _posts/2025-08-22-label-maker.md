@@ -2,7 +2,7 @@
 layout: post
 title: "Label Maker in js_of_ocaml using Claude"
 date: 2025-08-22 00:00:00 +0000
-categories: js_of_ocaml,ocaml
+categories: [js_of_ocaml, ocaml]
 tags: tunbury.org
 image:
   path: /images/ocaml-logo.png

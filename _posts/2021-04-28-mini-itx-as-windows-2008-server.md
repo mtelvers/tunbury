@@ -2,7 +2,7 @@
 layout: post
 title:  "Mini ITX as Windows 2008 Server"
 date:   2021-04-28 13:41:29 +0100
-categories: raspberrypi obs
+categories: [raspberrypi, obs]
 image:
   path: /images/via-cpu.jpg
   thumbnail: /images/thumbs/via-cpu.jpg

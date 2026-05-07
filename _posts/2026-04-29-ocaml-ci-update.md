@@ -2,7 +2,7 @@
 layout: post
 title: "ocaml-ci moves to significant versions"
 date: 2026-04-29 08:00:00 +0000
-categories: ocaml,ocaml-ci
+categories: [ocaml, ocaml-ci]
 tags: tunbury.org
 image:
   path: /images/ocaml-logo.png

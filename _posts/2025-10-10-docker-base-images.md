@@ -2,7 +2,7 @@
 layout: post
 title: "Docker base image build rate"
 date: 2025-10-10 00:00:00 +0000
-categories: docker,go
+categories: [docker, go]
 tags: tunbury.org
 image:
   path: /images/docker-logo.png

@@ -2,7 +2,7 @@
 layout: post
 title: "Debugging OBuilder on macOS"
 date: 2025-05-08 12:00:00 +0000
-categories: macOS,OBuilder
+categories: [macos, obuilder]
 tags: tunbury.org
 image:
   path: /images/obuilder.png

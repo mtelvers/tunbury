@@ -2,7 +2,7 @@
 layout: post
 title:  "Depth-first topological ordering"
 date:   2025-07-21 00:00:00 +0000
-categories: OCaml,opam
+categories: [ocaml, opam]
 tags: tunbury.org
 image:
   path: /images/dune-graph.png

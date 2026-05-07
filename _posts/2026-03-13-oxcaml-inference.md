@@ -2,7 +2,7 @@
 layout: post
 title: "ONNX inference engine using OxCaml's SIMD intrinsics"
 date: 2026-03-13 18:30:00 +0000
-categories: oxcaml,tessera,onnx
+categories: [oxcaml, tessera, onnx]
 tags: tunbury.org
 image:
   path: /images/tessera.png

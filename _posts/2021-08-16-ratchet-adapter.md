@@ -2,7 +2,7 @@
 layout: post
 title:  "Ratchet Adapter"
 date:   2021-08-16 20:41:29 +0100
-categories: raspberrypi obs
+categories: [raspberrypi, obs]
 image:
   path: /images/in-operation.png
   thumbnail: /images/thumbs/in-operation.png

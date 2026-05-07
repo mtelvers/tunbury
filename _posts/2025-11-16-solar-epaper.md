@@ -2,7 +2,7 @@
 layout: post
 title: "Solar Position Library"
 date: 2025-11-16 18:30:00 +0000
-categories: ocaml,raspberry-pi,solar
+categories: [ocaml, raspberrypi, solar]
 tags: tunbury.org
 image:
   path: /images/solar-landscape.jpg

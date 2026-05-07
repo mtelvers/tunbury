@@ -2,7 +2,7 @@
 layout: post
 title: "Tailscale"
 date: 2025-06-20 00:00:00 +0000
-categories: Tailscale
+categories: tailscale
 tags: tunbury.org
 image:
   path: /images/tailscale-logo.png

@@ -2,7 +2,7 @@
 layout: post
 title: "SSL Password Authentication"
 date: 2025-08-08 00:00:00 +0000
-categories: ocaml,ssh
+categories: [ocaml, ssh]
 tags: tunbury.org
 image:
   path: /images/ocaml-logo.png

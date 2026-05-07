@@ -2,7 +2,7 @@
 layout: post
 title:  "Terminal Plotter"
 date:   2025-09-07 00:00:00 +0000
-categories: dm-cache,Ubuntu
+categories: [dm-cache, ubuntu]
 tags: tunbury.org
 image:
   path: /images/stat.png

@@ -2,7 +2,7 @@
 layout: post
 title: "iPXE boot for FreeBSD with an UEFI BIOS"
 date: 2025-05-06 12:00:00 +0000
-categories: FreeBSD,UEFI,iPXE
+categories: [freebsd, uefi, ipxe]
 tags: tunbury.org
 image:
   path: /images/freebsd-logo.png

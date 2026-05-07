@@ -2,7 +2,7 @@
 layout: post
 title:  "Ubuntu cloud-init"
 date:   2025-04-16 00:00:00 +0000
-categories: Netboot.xyz,Ubuntu
+categories: [netboot.xyz, ubuntu]
 tags: tunbury.org
 image:
   path: /images/ubuntu.png

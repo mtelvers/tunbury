@@ -2,7 +2,7 @@
 layout: post
 title:  "OLED Module for PI"
 date:   2019-09-20 13:41:29 +0100
-categories: raspberrypi oled
+categories: [raspberrypi, oled]
 image:
   path: /images/oled.jpg
   thumbnail: /images/thumbs/oled.jpg

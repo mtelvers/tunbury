@@ -2,7 +2,7 @@
 layout: post
 title:  "Package Tool"
 date:   2025-07-22 00:00:00 +0000
-categories: OCaml,opam
+categories: [ocaml, opam]
 tags: tunbury.org
 image:
   path: /images/opam.png

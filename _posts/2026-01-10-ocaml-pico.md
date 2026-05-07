@@ -2,7 +2,7 @@
 layout: post
 title: "More OCaml on Pi Pico 2 W"
 date: 2026-01-10 21:00:00 +0000
-categories: ocaml,pico
+categories: [ocaml, pico]
 tags: tunbury.org
 image:
   path: /images/ocaml-pico.png

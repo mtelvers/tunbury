@@ -2,7 +2,7 @@
 layout: post
 title: "OCI image export from day10"
 date: 2026-04-09 15:15:00 +0000
-categories: ocaml,day10
+categories: [ocaml, day10]
 tags: tunbury.org
 image:
   path: /images/ocaml-logo.png

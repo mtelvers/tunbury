@@ -2,7 +2,7 @@
 layout: post
 title:  "Blade Server Allocation"
 date:   2025-04-23 00:00:00 +0000
-categories: OCaml
+categories: ocaml
 tags: tunbury.org
 image:
   path: /images/supermicro.png

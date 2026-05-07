@@ -2,7 +2,7 @@
 layout: post
 title: "Debian 13 Trixie"
 date: 2025-08-11 00:00:00 +0000
-categories: debian,trixie
+categories: [debian, trixie]
 tags: tunbury.org
 image:
   path: /images/debian-logo.png

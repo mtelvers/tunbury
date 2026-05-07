@@ -2,7 +2,7 @@
 layout: post
 title: "Retiring opam 2.0 from the build pipeline"
 date: 2026-05-07 14:00:00 +0000
-categories: ocaml,opam
+categories: [ocaml, opam]
 tags: tunbury.org
 image:
   path: /images/opam.png

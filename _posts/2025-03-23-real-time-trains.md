@@ -2,7 +2,7 @@
 layout: post
 title:  "Real Time Trains API"
 date:   2025-03-23 00:00:00 +0000
-categories: OCaml
+categories: ocaml
 tags: tunbury.org
 image:
   path: /images/rtt.png

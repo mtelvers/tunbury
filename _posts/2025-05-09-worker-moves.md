@@ -2,7 +2,7 @@
 layout: post
 title: "Worker moves"
 date: 2025-05-09 12:00:00 +0000
-categories: OBuilder,FreeBSD,OpenBSD
+categories: [obuilder, freebsd, openbsd]
 tags: tunbury.org
 image:
   path: /images/ocaml-logo.png

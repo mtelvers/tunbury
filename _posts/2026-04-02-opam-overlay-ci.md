@@ -2,7 +2,7 @@
 layout: post
 title: "CI for opam overlay repositories with day10 and GitHub merge queue"
 date: 2026-04-02 14:00:00 +0000
-categories: ocaml,ci
+categories: [ocaml, ci]
 tags: tunbury.org
 image:
   path: /images/ocaml-logo.png

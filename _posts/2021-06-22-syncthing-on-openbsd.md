@@ -2,7 +2,7 @@
 layout: post
 title:  "Syncthing on OpenBSD"
 date:   2021-06-22 20:41:29 +0100
-categories: Syncthing OpenBSD
+categories: [syncthing, openbsd]
 image:
   path: /images/openbsd-syncthing.png
   thumbnail: /images/thumbs/openbsd-syncthing.png

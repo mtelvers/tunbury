@@ -2,7 +2,7 @@
 layout: post
 title:  "Raspberry PI as RTSP source for OBS using VLC"
 date:   2020-08-29 13:41:29 +0100
-categories: obs raspberrypi
+categories: [obs, raspberrypi]
 image:
   path: /images/pi-obs.png
   thumbnail: /images/thumbs/pi-obs.png

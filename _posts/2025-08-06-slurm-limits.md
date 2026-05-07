@@ -2,7 +2,7 @@
 layout: post
 title:  "Further investigations with Slurm"
 date:   2025-08-06 00:00:00 +0000
-categories: Slurm
+categories: slurm
 tags: tunbury.org
 image:
   path: /images/slurm.png

@@ -2,7 +2,7 @@
 layout: post
 title:  "Slurm with multiple architectures"
 date:   2025-10-24 12:00:00 +0000
-categories: Slurm
+categories: slurm
 tags: tunbury.org
 image:
   path: /images/slurm.png

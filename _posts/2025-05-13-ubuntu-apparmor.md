@@ -2,7 +2,7 @@
 layout: post
 title: "Ubuntu 24.04 runc issues with AppArmor"
 date: 2025-05-13 12:00:00 +0000
-categories: Ubuntu,runc,AppArmor
+categories: [ubuntu, runc, apparmor]
 tags: tunbury.org
 image:
   path: /images/ubuntu.png

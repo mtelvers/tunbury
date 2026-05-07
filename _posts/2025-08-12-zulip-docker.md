@@ -2,7 +2,7 @@
 layout: post
 title: "Zulip Terminal in Docker"
 date: 2025-08-12 00:00:00 +0000
-categories: docker,zulip
+categories: [docker, zulip]
 tags: tunbury.org
 image:
   path: /images/zulip-logo.png

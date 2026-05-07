@@ -2,7 +2,7 @@
 layout: post
 title:  "GNU Parallel"
 date:   2025-04-13 00:00:00 +0000
-categories: GNU
+categories: gnu
 tags: tunbury.org
 image:
   path: /images/gnu.png

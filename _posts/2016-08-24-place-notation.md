@@ -2,7 +2,7 @@
 layout: post
 title:  "Place Notation"
 date:   2016-08-24 13:41:29 +0100
-categories: perl bells
+categories: [perl, bells]
 redirect_from:
   - /place-notation/
 ---

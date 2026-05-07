@@ -2,7 +2,7 @@
 layout: post
 title: "Update solver-service in OCaml-CI local mode"
 date: 2026-04-30 21:00:00 +0000
-categories: ocaml,ocaml-ci
+categories: [ocaml, ocaml-ci]
 tags: tunbury.org
 image:
   path: /images/ocaml-logo.png

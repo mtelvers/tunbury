@@ -2,7 +2,7 @@
 layout: post
 title:  "More Kingston Drives"
 date:   2025-04-03 00:00:00 +0000
-categories: Dell
+categories: dell
 tags: tunbury.org
 image:
   path: /images/kingston-forty.png

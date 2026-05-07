@@ -2,7 +2,7 @@
 layout: post
 title:  "PowerShell SNMP"
 date:   2020-08-07 13:41:29 +0100
-categories: powershell snmp
+categories: [powershell, snmp]
 image:
   path: /images/pssnmp.png
   thumbnail: /images/thumbs/pssnmp.png

@@ -2,7 +2,7 @@
 layout: post
 title:  "BuildKit Bake-off"
 date:   2025-08-18 00:00:00 +0000
-categories: docker,buildkit,opam
+categories: [docker, buildkit, opam]
 tags: tunbury.org
 image:
   path: /images/docker-logo.png

@@ -2,7 +2,7 @@
 layout: post
 title: "Static linking in OCaml"
 date: 2025-06-17 00:00:00 +0000
-categories: OCaml
+categories: ocaml
 tags: tunbury.org
 image:
   path: /images/ocaml-logo.png

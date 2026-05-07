@@ -2,7 +2,7 @@
 layout: post
 title: "Tessera pipeline in OCaml"
 date: 2026-02-15 19:30:00 +0000
-categories: ocaml,tessera
+categories: [ocaml, tessera]
 tags: tunbury.org
 image:
   path: /images/manchester.png

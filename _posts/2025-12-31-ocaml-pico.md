@@ -2,7 +2,7 @@
 layout: post
 title: "Multi Domain OCaml on Raspberry Pi Pico 2 Microcontroller"
 date: 2025-12-31 17:00:00 +0000
-categories: ocaml,pico
+categories: [ocaml, pico]
 tags: tunbury.org
 image:
   path: /images/ocaml-pico.png

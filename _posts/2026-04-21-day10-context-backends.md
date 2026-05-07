@@ -2,7 +2,7 @@
 layout: post
 title: "Prefetch opam files for day10 --fork"
 date: 2026-04-21 19:00:00 +0000
-categories: ocaml,day10,opam
+categories: [ocaml, day10, opam]
 tags: tunbury.org
 image:
   path: /images/opam.png

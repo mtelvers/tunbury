@@ -2,7 +2,7 @@
 layout: post
 title: "Opam Health Check with OxCaml"
 date: 2025-05-14 06:00:00 +0000
-categories: opam-health-check,OxCaml
+categories: [opam-health-check, oxcaml]
 tags: tunbury.org
 image:
   path: /images/ocaml-logo.png
