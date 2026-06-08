@@ -37,7 +37,7 @@ With some excitement, may I present a working sequence:
 
 That final command `cephadm shell -- ceph cephadm osd activate` causes any missing OSD services to be created.
 
-For my deployment, I provisioned four Scaleway EM-L110X-SATA machines and booted them in rescue mode.   Taking the deployment steps from my last [post](https://www.tunbury.org/2025/10/31/scaleway-reconfiguration/), I have rolled them into an Ansible Playbook, [gist](https://gist.github.com/4012e6860ff4e12d7b827fe96669318b.git), which reconfigures the machine automatically.
+For my deployment, I provisioned four Scaleway EM-L110X-SATA machines and booted them in rescue mode.   Taking the deployment steps from my last [post]({% post_url 2025-10-31-scaleway-reconfiguration %}), I have rolled them into an Ansible Playbook, [gist](https://gist.github.com/4012e6860ff4e12d7b827fe96669318b.git), which reconfigures the machine automatically.
 
-With the machines prepared, Ceph can be deployed using the notes from this earlier [post](https://www.tunbury.org/2025/10/18/quick-look-at-ceph/) combined with the OSD setup steps above. The entire process is available in this [gist](https://gist.github.com/mtelvers/15e8bb0328aca66520ebe1351572a7d3).
+With the machines prepared, Ceph can be deployed using the notes from this earlier [post]({% post_url 2025-10-23-quick-look-at-ceph %}) combined with the OSD setup steps above. The entire process is available in this [gist](https://gist.github.com/mtelvers/15e8bb0328aca66520ebe1351572a7d3).
 

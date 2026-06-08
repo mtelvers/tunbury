@@ -9,7 +9,7 @@ image:
   thumbnail: /images/thumbs/refs.png
 ---
 
-In addition to the post from last week covering [BON in a Box](https://www.tunbury.org/2025/07/02/bon-in-a-box/) and [OCaml Functors](https://www.tunbury.org/2025/07/01/ocaml-functors/), below are some additional notes.
+In addition to the post from last week covering [BON in a Box]({% post_url 2025-07-02-bon-in-a-box %}) and [OCaml Functors]({% post_url 2025-07-01-ocaml-functors %}), below are some additional notes.
 
 # Resilient File System, ReFS
 

@@ -9,7 +9,7 @@ image:
   thumbnail: /images/thumbs/solution.png
 ---
 
-Quite often, you install a new package from opam and are keen to jump right in and want a tailored example for your use case. This happened to me during [Day 12](https://www.tunbury.org/2025/12/12/advent-of-code/) of [Advent of Code](https://adventofcode.com).
+Quite often, you install a new package from opam and are keen to jump right in and want a tailored example for your use case. This happened to me during [Day 12]({% post_url 2025-12-12-advent-of-code %}) of [Advent of Code](https://adventofcode.com).
 
 I had identified the [combine](https://opam.ocaml.org/packages/combine/) package as potentially suitable to solve the day's problem of placing shapes in a grid. I cloned the git repository.
 

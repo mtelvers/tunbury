@@ -9,7 +9,7 @@ image:
   thumbnail: /images/thumbs/docker-base-images.png
 ---
 
-In my previous post on the [base image builder](https://www.tunbury.org/2026/01/16/base-image-builder/), I included a footnote that we now had Windows 2025 workers, but I didn't mention that the base images weren't building.
+In my previous post on the [base image builder]({% post_url 2026-01-16-base-image-builder %}), I included a footnote that we now had Windows 2025 workers, but I didn't mention that the base images weren't building.
 
 Docker on Windows is very slow, so I have had a background task nudging these builds forward a little bit each day, and I'm pleased to now report that over the weekend, the images all built, and the entire dashboard is green!
 

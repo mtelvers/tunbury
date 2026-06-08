@@ -8,7 +8,7 @@ image:
   thumbnail: /images/thumbs/tessera2.png
 ---
 
-I wrote previously about setting up a [Jupyter notebook in a Docker container](https://www.tunbury.org/2025/07/09/jupyter/). This worked well for a single user, but we intend to hold a workshop and so need a multi-user setup.
+I wrote previously about setting up a [Jupyter notebook in a Docker container]({% post_url 2025-07-09-jupyter %}). This worked well for a single user, but we intend to hold a workshop and so need a multi-user setup.
 
 We would prefer that as much of the per-user setup as possible be completed automatically so participants don't need to waste time setting up the environment.
 

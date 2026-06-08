@@ -8,7 +8,7 @@ image:
   thumbnail: /images/thumbs/aylesford-snap.jpg
 ---
 
-About three months ago, I [wrote](https://www.tunbury.org/2025/04/21/clock-winder-repair/) about replacing a snapped galvanised steel wire rope on a clock winder. Unfortunately, it has snapped again!
+About three months ago, I [wrote]({% post_url 2025-04-21-clock-winder-repair %}) about replacing a snapped galvanised steel wire rope on a clock winder. Unfortunately, it has snapped again!
 
 I am very surprised that the steel wire rope snaps, as the weight it lifts is, at most, 2 kg, however it does run every hour. I posed the question to Claude:
 

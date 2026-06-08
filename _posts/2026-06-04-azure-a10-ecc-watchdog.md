@@ -9,7 +9,7 @@ image:
   thumbnail: /images/thumbs/tessera.png
 ---
 
-In the [previous post](https://www.tunbury.org/2026/05/20/processing-uk-azure-spot/) I mentioned that two A10s developed ECC faults during the UK processing. This occasional annoyance needs constant vigilance as failed machines process jobs much faster than working ones.
+In the [previous post]({% post_url 2026-05-20-processing-uk-azure-spot %}) I mentioned that two A10s developed ECC faults during the UK processing. This occasional annoyance needs constant vigilance as failed machines process jobs much faster than working ones.
 
 In my setup, I have a central work queue from which the spot machines `curl` to get their next grid tile. The queue records the time that the tile was issued and also notes the time of any subsequent status update from the spot machine. After 30 minutes of silence, the tile is requeued.
 

@@ -11,7 +11,7 @@ image:
 
 Running OCaml 5 with multicore support on bare-metal Raspberry Pi Pico 2 W (RP2350, ARM Cortex-M33).
 
-The OCaml Arm32 backend, which [I updated to OCaml 5 Domains](https://www.tunbury.org/2025/11/27/ocaml-54-native/), generates ARMv7-A code (Application profile), but the Pico 2's Cortex-M33 is ARMv8-M (Microcontroller profile). These instruction sets are compatible (both using Thumb-2), but the object file metadata differs. The linker will not mix "A" and "M" profiles.
+The OCaml Arm32 backend, which [I updated to OCaml 5 Domains]({% post_url 2025-11-27-ocaml-54-native %}), generates ARMv7-A code (Application profile), but the Pico 2's Cortex-M33 is ARMv8-M (Microcontroller profile). These instruction sets are compatible (both using Thumb-2), but the object file metadata differs. The linker will not mix "A" and "M" profiles.
 
 ```
 error: hello.o: conflicting architecture profiles A/M

@@ -9,7 +9,7 @@ image:
   thumbnail: /images/thumbs/manchester.png
 ---
 
-In this post I look at the changes in Tessera v1.1 and validate the benchmarks in my [Intel AMX](https://www.tunbury.org/2026/04/08/intel-amx/) post on the latest checkpoint.
+In this post I look at the changes in Tessera v1.1 and validate the benchmarks in my [Intel AMX]({% post_url 2026-04-08-intel-amx %}) post on the latest checkpoint.
 
 # What changed v1.0 to v1.1, only the bits that affect speed
 
@@ -39,7 +39,7 @@ Notes:
 
 - bf16 helps L4 and AMX, but hurts T4. Turing-era Tensor Cores (T4) don't accelerate bf16 well, and the precision-conversion overhead outweighs whatever benefit there is. On T4, run fp32. This was true for v1.0 and remains true for v1.1.
 - v1.1 wall time is roughly 1.5-1.9x longer than v1.0 at the same precision, on every machine. That's the 2x FLOP increase being partially absorbed by hardware that's faster per FLOP for the larger v1.1 matrices.
-- AMX bf16 on v1.1 is essentially tied with T4 fp32 (the best T4 path) at similar hourly cost: 26:06 vs 25:45. That's the headline claim from the [AMX post](https://www.tunbury.org/2026/04/08/intel-amx/) holding up for v1.1. A recent CPU competes with mid-tier inference GPUs at the same price. The L4 is in a different league (5.7x faster on bf16).
+- AMX bf16 on v1.1 is essentially tied with T4 fp32 (the best T4 path) at similar hourly cost: 26:06 vs 25:45. That's the headline claim from the [AMX post]({% post_url 2026-04-08-intel-amx %}) holding up for v1.1. A recent CPU competes with mid-tier inference GPUs at the same price. The L4 is in a different league (5.7x faster on bf16).
 
 # AMX-friendly
 

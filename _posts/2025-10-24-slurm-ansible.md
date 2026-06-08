@@ -41,4 +41,4 @@ sbatch --constraint=x86_64 job.sh
 sbatch --constraint=arm64 job.sh
 ```
 
-I have implemented this strategy in [mtelvers/slurm-ansible](https://github.com/mtelvers/slurm-ansible), which builds a Slurm cluster based upon my previous posts on [14/4](https://www.tunbury.org/2025/04/14/slurm-workload-manager/) and [6/8](https://www.tunbury.org/2025/08/06/slurm-limits/) to include accounting, cgroups and NFS sharing and additionally applies features based upon `uname -m`.
+I have implemented this strategy in [mtelvers/slurm-ansible](https://github.com/mtelvers/slurm-ansible), which builds a Slurm cluster based upon my previous posts on [14/4]({% post_url 2025-04-14-slurm-workload-manager %}) and [6/8]({% post_url 2025-08-06-slurm-limits %}) to include accounting, cgroups and NFS sharing and additionally applies features based upon `uname -m`.

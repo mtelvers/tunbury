@@ -9,7 +9,7 @@ image:
   thumbnail: /images/thumbs/ocaml-logo.png
 ---
 
-Following from my containerd [posts](https://www.tunbury.org/2025/06/11/windows-containerd/) [last](https://www.tunbury.org/2025/06/14/windows-containerd-2/) [year](https://www.tunbury.org/2025/06/27/windows-containerd-3/) and my previous work on obuilder backends for [macOS](https://tarides.com/blog/2023-08-02-obuilder-on-macos/) and [QEMU](https://github.com/ocurrent/obuilder/pull/195), this post extends obuilder to use the Host Compute System (HCS) and [containerd](https://containerd.io) on Windows.
+Following from my containerd [posts]({% post_url 2025-06-11-windows-containerd %}) [last]({% post_url 2025-06-14-windows-containerd-2 %}) [year]({% post_url 2025-06-27-windows-containerd-3 %}) and my previous work on obuilder backends for [macOS](https://tarides.com/blog/2023-08-02-obuilder-on-macos/) and [QEMU](https://github.com/ocurrent/obuilder/pull/195), this post extends obuilder to use the Host Compute System (HCS) and [containerd](https://containerd.io) on Windows.
 
 OBuilder, written by Thomas Leonard, is a sandboxed build executor for OCaml CI pipelines. It takes a build specification, similar to a Dockerfile, but written in S-expression syntax, and executes each step in an isolated environment, caching results at the filesystem level.
 

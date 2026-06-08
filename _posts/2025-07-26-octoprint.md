@@ -8,7 +8,7 @@ image:
   thumbnail: /images/thumbs/octoprint.png
 ---
 
-After my [3D print](https://www.tunbury.org/2025/07/23/rochester/) last week, Michael asked whether I was using [OctoPrint](https://octoprint.org). I've been using [Pronterface](https://www.pronterface.com) for some years, and I've never been terribly happy with it, but it does the job.
+After my [3D print]({% post_url 2025-07-23-rochester %}) last week, Michael asked whether I was using [OctoPrint](https://octoprint.org). I've been using [Pronterface](https://www.pronterface.com) for some years, and I've never been terribly happy with it, but it does the job.
 
 I had a _Pet Camera_ pointed at the printer to see what was happening, [Syncthing](https://syncthing.net) configured to share the GCode directory from my Mac to the Raspberry Pi, and the VNC Server to access the GUI. I decided that it was time to overhaul the setup with OctoPi!
 

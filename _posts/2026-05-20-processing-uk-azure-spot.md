@@ -11,7 +11,7 @@ image:
 
 Sadiq asked me to process the UK with Tessera v1.1 on Azure using the most cost-effective method.
 
-As Tessera v1.1 uses bf16, I expected the [AMX route](https://www.tunbury.org/2026/04/08/intel-amx/) to be the cheapest, particularly given the spot pricing for AMX CPUs on Azure down at $0.18 per hour. I measured the interference time using the v1.1 model on a predownloaded dpixel tile on AMX, T4, A10. Figures below are with pricing for "East US" region. There is regional variation, but the trend is the same.
+As Tessera v1.1 uses bf16, I expected the [AMX route]({% post_url 2026-04-08-intel-amx %}) to be the cheapest, particularly given the spot pricing for AMX CPUs on Azure down at $0.18 per hour. I measured the interference time using the v1.1 model on a predownloaded dpixel tile on AMX, T4, A10. Figures below are with pricing for "East US" region. There is regional variation, but the trend is the same.
 
 | Path | v1.1 (Manchester tile) | Spot $/hr | $/tile |
 |---|---|---|---|
@@ -31,9 +31,9 @@ Running a test tile showed the timing of those three stages to be: 136s for down
 
 Up to this point, I had been manually installing all the dependencies each time I created a new VM, but that isn't really scalable. Azure allows you to pass a custom script to configure the VM: `az vm create ... --custom-data bootstrap.sh` which installs the dependencies, such as CUDA drivers, and sets up the Python venv.
 
-I had been planning to use Azure Batch as the native solution rather than [ocurrent/ocluster](https://www.tunbury.org/2026/03/09/ocluster/), but neither matched the vision I had of the dashboard showing a map being filled in as tiles were processed.
+I had been planning to use Azure Batch as the native solution rather than [ocurrent/ocluster]({% post_url 2026-03-09-ocluster %}), but neither matched the vision I had of the dashboard showing a map being filled in as tiles were processed.
 
-When calculating [how big Europe was](https://www.tunbury.org/2026/03/21/how-big-europe/), I used the [Natural Earth](https://www.naturalearthdata.com) coastline shapefiles, which seemed like the perfect starting point for a web dashboard showing the 0.1-degree grid.
+When calculating [how big Europe was]({% post_url 2026-03-21-how-big-europe %}), I used the [Natural Earth](https://www.naturalearthdata.com) coastline shapefiles, which seemed like the perfect starting point for a web dashboard showing the 0.1-degree grid.
 
 This grew into an orchestrator [mtelvers/genesis](https://github.com/mtelvers/genesis) which initially consisted of two endpoints: `GET /work`, which returned a `<year>/<grid>` to work on, and `POST /result/<year>/<grid>`, which accepted the resulting embedding. Later, `POST /progress/<year>/<grid>` was added, allowing workers to provide a single float representing their progress, which I used to colour tiles to indicate which stage they were at. Finally, `POST /progress/...` was expanded to accept a JSON body containing simple metrics such as the worker name and CPU/GPU load.
 

@@ -9,9 +9,9 @@ image:
   thumbnail: /images/thumbs/pico-clock-cad.png
 ---
 
-After playing with the [Pi Pico 2W](https://www.tunbury.org/2025/12/31/ocaml-pico/) at the New Year, I had a little time today and made an OCaml-powered clock in a 3D-printed case.
+After playing with the [Pi Pico 2W]({% post_url 2025-12-31-ocaml-pico %}) at the New Year, I had a little time today and made an OCaml-powered clock in a 3D-printed case.
 
-It's overcomplicated; I have two cores available, and I really wanted to use both of them, so core 0 handles the NTP sync, leaving core 1 to handle the display refresh. The code is written in OCaml 5 using my ARM 32 native code [backend](http://www.tunbury.org/2025/11/27/ocaml-54-native/).
+It's overcomplicated; I have two cores available, and I really wanted to use both of them, so core 0 handles the NTP sync, leaving core 1 to handle the display refresh. The code is written in OCaml 5 using my ARM 32 native code [backend]({% post_url 2025-11-27-ocaml-54-native %}).
 
 ![Pi Pico front view](/images/pico-clock-front.png)
 

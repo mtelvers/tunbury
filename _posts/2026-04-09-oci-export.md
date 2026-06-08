@@ -13,7 +13,7 @@ image:
 
 # Background
 
-Previously, [mtelvers/day10](https://github.com/mtelvers/day10) could export builds into Docker using `--tag`, which assembled all layers into a single flat filesystem and piped it through `docker import`. This produced working images but threw away the layer structure that makes container distribution efficient. Every image was a single layer, regardless of how much it shared with other builds. Last year, I played with [BuildKit Bake](https://www.tunbury.org/2025/08/18/buildkit-bake/), attempting to create a Dockerfile for each package in opam. 
+Previously, [mtelvers/day10](https://github.com/mtelvers/day10) could export builds into Docker using `--tag`, which assembled all layers into a single flat filesystem and piped it through `docker import`. This produced working images but threw away the layer structure that makes container distribution efficient. Every image was a single layer, regardless of how much it shared with other builds. Last year, I played with [BuildKit Bake]({% post_url 2025-08-18-buildkit-bake %}), attempting to create a Dockerfile for each package in opam. 
 
 The new `--oci` flag generates an OCI image layout directory, which I think of as a Docker registry on the file system. Each opam package in the dependency tree becomes a separate layer, and images built into the same directory naturally deduplicate shared layers through content-addressed storage.
 
@@ -131,7 +131,7 @@ Layer tarballs are cached in the build cache directory alongside each package's 
 
 # Why not Docker build?
 
-This kind of image cannot be produced by `docker build`. A Dockerfile creates layers corresponding to `RUN` instructions, so you could write a separate `RUN opam install <pkg>` for each dependency (see [BuildKit Bake-off](https://www.tunbury.org/2025/08/18/buildkit-bake/)), but Docker provides no way to merge layers after the fact. If two images share the same base packages but install them in a different order, or with a single different package earlier in the chain, every subsequent layer differs.
+This kind of image cannot be produced by `docker build`. A Dockerfile creates layers corresponding to `RUN` instructions, so you could write a separate `RUN opam install <pkg>` for each dependency (see [BuildKit Bake-off]({% post_url 2025-08-18-buildkit-bake %})), but Docker provides no way to merge layers after the fact. If two images share the same base packages but install them in a different order, or with a single different package earlier in the chain, every subsequent layer differs.
 
 [mtelvers/day10](https://github.com/mtelvers/day10) sidesteps this entirely. Each opam package is built in its own overlay filesystem, producing a diff directory that captures exactly what that package installed. These diffs are directly turned into OCI layers. Two images that happen to share `dune.3.22.0` share the same blob regardless of where it appears in their respective dependency trees.
 

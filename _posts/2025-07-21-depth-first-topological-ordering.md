@@ -9,9 +9,9 @@ image:
   thumbnail: /images/thumbs/dune-graph.png
 ---
 
-Over the last few months, I have written several posts on the package installation graphs specifically, [Topological Sort of Packages](https://www.tunbury.org/2025/03/25/topological-sort/), [Installation order for opam packages](https://www.tunbury.org/2025/03/31/opam-post-deps/) and [Transitive Reduction of Package Graph](https://www.tunbury.org/2025/06/23/transitive-reduction/). In this post, I'd like to cover a alternative ordering solution.
+Over the last few months, I have written several posts on the package installation graphs specifically, [Topological Sort of Packages]({% post_url 2025-03-25-topological-sort %}), [Installation order for opam packages]({% post_url 2025-03-31-opam-post-deps %}) and [Transitive Reduction of Package Graph]({% post_url 2025-06-23-transitive-reduction %}). In this post, I'd like to cover a alternative ordering solution.
 
-Considering the graph above, first presented in the [Topological Sort of Packages](https://www.tunbury.org/2025/03/25/topological-sort/), which produces the installation order below.
+Considering the graph above, first presented in the [Topological Sort of Packages]({% post_url 2025-03-25-topological-sort %}), which produces the installation order below.
 
 1. base-threads.base
 2. base-unix.base

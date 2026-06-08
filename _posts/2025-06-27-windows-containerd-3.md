@@ -65,7 +65,7 @@ I decided to both ignore the problem and try it on another machine. After all, t
 
 Trying on another physical machine with a single large spinning disk as `C:` also worked as anticipated.
 
-In both of these new installations, I used `containerd` 2.1.3 and noticed that the behaviour I had come to rely upon seemed to have changed. If you recall, in this [post](https://www.tunbury.org/2025/06/14/windows-containerd-2/), I _found_ the network namespace GUID by running `ctr run` on a standard Windows container and then `ctr container info` in another window. This no longer worked reliably, as the namespace was removed when the container exited. Perhaps it always should have been?
+In both of these new installations, I used `containerd` 2.1.3 and noticed that the behaviour I had come to rely upon seemed to have changed. If you recall, in this [post]({% post_url 2025-06-14-windows-containerd-2 %}), I _found_ the network namespace GUID by running `ctr run` on a standard Windows container and then `ctr container info` in another window. This no longer worked reliably, as the namespace was removed when the container exited. Perhaps it always should have been?
 
 I need to find out how to create these namespaces. PowerShell has a cmdlet `Get-HnsNetwork`, but none of the GUID values there match the currently running namespaces I observe from `ctr container info`. The source code of [containerd](https://github.com/containerd/containerd) is on GitHub..
 

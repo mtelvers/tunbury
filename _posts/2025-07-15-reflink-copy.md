@@ -8,7 +8,7 @@ image:
   thumbnail: /images/thumbs/ocaml-logo.png
 ---
 
-I hadn't intended to write another [post](https://www.tunbury.org/2025/07/08/unix-or-sys/) about traversing a directory structure or even thinking about it again, but weirdly, it just kept coming up again!
+I hadn't intended to write another [post]({% post_url 2025-07-08-unix-or-sys %}) about traversing a directory structure or even thinking about it again, but weirdly, it just kept coming up again!
 
 Firstly, Patrick mentioned `Eio.Path.read_dir` and Anil mentioned [bfs](https://tavianator.com/2023/bfs_3.0.html). Then Becky commented about XFS reflink performance, and I commented that the single-threaded nature of `cp -r --reflink=always` was probably hurting our [obuilder](https://github.com/ocurrent/obuilder) performance tests.
 

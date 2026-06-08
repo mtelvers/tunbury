@@ -9,7 +9,7 @@ image:
   thumbnail: /images/thumbs/meighen-island.png
 ---
 
-My throw-away comment at the end of my earlier [post](https://www.tunbury.org/2025/11/30/tessera-zarr/) shows my scepticism that the JSON file approach was really viable.
+My throw-away comment at the end of my earlier [post]({% post_url 2025-11-30-tessera-zarr %}) shows my scepticism that the JSON file approach was really viable.
 
 A quick `ls | wc -l` shows nearly one million tiles in 2024 alone. We need a different approach. There are already parquet files available, and checking `register.parquet`, I can see it has everything we need!
 

@@ -11,7 +11,7 @@ image:
 
 I frequently want a quick way to monitor things from the shell, be that `watch -d df -h`, or `while true` loop, or an `awk` script. The scripts become increasingly complex when you want to measure the difference between the current and previous value. The solution is [mtelvers/terminal-plotter](https://github.com/mtelvers/terminal-plotter).
 
-I set out to write this in Mosaic, but I ran into various bugs within the framework, so I abandoned it in place of the [pqwy/notty](https://github.com/pqwy/notty) and the histograms I created for [ocluster-monitor](https://www.tunbury.org/2025/08/24/ocluster-monitor/).
+I set out to write this in Mosaic, but I ran into various bugs within the framework, so I abandoned it in place of the [pqwy/notty](https://github.com/pqwy/notty) and the histograms I created for [ocluster-monitor]({% post_url 2025-08-24-ocluster-monitor %}).
 
 Consider `/proc/loadavg`: typical values are shown below, where the first 3 are the load averages over 1 minute, 5 minutes and 15 minutes, and there is 1 process running out of the 623 on the system, and the final value is the PID of the most recently created process.
 
@@ -77,7 +77,7 @@ After crafting a complex command line, you can save it to `~/.terminal-plotter` 
 loadavg --file /proc/loadavg --value "Load:c0" --value "load 5m:c1" --value "load 15m:c2" --value "running:c3" --counter "pid:c4"
 ```
 
-You may recall my `awk` script for `dmsetup`, which I used to monitor [dm-cache](https://www.tunbury.org/2025/09/04/dm-cache/). This can be implemented as below.
+You may recall my `awk` script for `dmsetup`, which I used to monitor [dm-cache]({% post_url 2025-09-04-dm-cache %}). This can be implemented as below.
 
 ```sh
 terminal-plotter -i 15 --exec "sudo dmsetup status fast-sdd" --value c6 --value "Read Hits: (c7/(c7+c8))" --value "Write Hits: (c9/(c9+c10))" --value "Dirty:c13"  --counter "Demotions:c11" --counter "Promotions:c12"

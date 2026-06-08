@@ -9,7 +9,7 @@ image:
   thumbnail: /images/thumbs/ocaml-logo.png
 ---
 
-Following from [post last week about obuilder and Windows Host Compute Services](https://www.tunbury.org/2026/02/19/obuilder-hcs/), I am pleased to report that this is now running on OCaml-CI. In this early phase, I have enabled testing only on Windows 2025 with OCaml 5.4 and opam 2.5 using the MinGW toolchain.
+Following from [post last week about obuilder and Windows Host Compute Services]({% post_url 2026-02-19-obuilder-hcs %}), I am pleased to report that this is now running on OCaml-CI. In this early phase, I have enabled testing only on Windows 2025 with OCaml 5.4 and opam 2.5 using the MinGW toolchain.
 
 Since my earlier post, I have achieved reliable operation and pushed the workarounds I had in obuilder into LWT. Furthermore, I have switched from a JSON configuration file per layer to an S-expression format, as this better matches the existing style, and the PPX deriving was already installed. There have also been numerous other small clean-ups.
 

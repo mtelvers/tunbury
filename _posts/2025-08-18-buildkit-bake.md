@@ -9,7 +9,7 @@ image:
   thumbnail: /images/thumbs/docker-logo.png
 ---
 
-I previously [wrote](https://www.tunbury.org/2025/07/22/package-tool/) about a [mtelvers/package-tool](mtelvers/package-tool) which would generate Dockerfiles for each package in opam.
+I previously [wrote]({% post_url 2025-07-22-package-tool %}) about a [mtelvers/package-tool](mtelvers/package-tool) which would generate Dockerfiles for each package in opam.
 
 The tool also created a single 10MB Dockerfile containing all ~4000 package builds. Each build looked like this:
 

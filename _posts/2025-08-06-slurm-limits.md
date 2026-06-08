@@ -11,7 +11,7 @@ image:
 
 Slurm uses cgroups to constrain jobs with the specified parameters and an accounting database to track job statistics.
 
-After the initial [configuration](https://www.tunbury.org/2025/04/14/slurm-workload-manager/) and ensuring everything is at the same [version](https://www.tunbury.org/2025/07/29/slurm-versions/), what we really need is some shared storage between the head node and the cluster machine(s). I'm going to quickly share `/home` over NFS.
+After the initial [configuration]({% post_url 2025-04-14-slurm-workload-manager %}) and ensuring everything is at the same [version]({% post_url 2025-07-29-slurm-versions %}), what we really need is some shared storage between the head node and the cluster machine(s). I'm going to quickly share `/home` over NFS.
 
 Install an NFS server on the head node with `apt install nfs-kernel-server` and set up `/etc/exports`:
 

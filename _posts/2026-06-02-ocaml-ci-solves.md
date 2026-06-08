@@ -11,7 +11,7 @@ image:
 
 By now, you'll know that I've been looking at OCaml CI more than I ever had before and was confused by the solver jobs, which seemed to hang around in the job queue.
 
-At ocurrent's `/jobs` endpoint, there is a list of build jobs, mostly [RISCV](https://www.tunbury.org/2026/06/03/emulated-riscv-workers/) at this moment, but there is a build-up of several hundred `solver-job-XXXXXX` which have started but not finished. Perhaps these relate to those open FDs I've been chasing?
+At ocurrent's `/jobs` endpoint, there is a list of build jobs, mostly [RISCV]({% post_url 2026-06-03-emulated-riscv-workers %}) at this moment, but there is a build-up of several hundred `solver-job-XXXXXX` which have started but not finished. Perhaps these relate to those open FDs I've been chasing?
 
 Each `solver-job-XXXXXX` job page showed only:
 
@@ -24,7 +24,7 @@ When I manually triggered OCaml CI Analyse job on a repo, I could see the `ci-an
 
 These didn't seem to affect normal operation, but they did build up over time. When you clicked on them the log was still being streamed.
 
-My initial guess here was totally wrong. Under the assumption that this was a new problem, I went through what had changed, and I was leaning heavily towards the [move of the scheduler](https://www.tunbury.org/2026/04/01/from-scaleway-to-cambridge/).
+My initial guess here was totally wrong. Under the assumption that this was a new problem, I went through what had changed, and I was leaning heavily towards the [move of the scheduler]({% post_url 2026-04-01-from-scaleway-to-cambridge %}).
 
 With this move, OCaml CI and the scheduler are running on the same machine, each in its own Docker container. While OCaml CI connects to `scheduler.ci.dev` using the public IP, it is actually being hairpinned back to a container on the same machine. After a lot of `tcpdump`, I concluded that Docker handles this beautifully.
 

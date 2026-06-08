@@ -9,7 +9,7 @@ image:
   thumbnail: /images/thumbs/scaleway-logo.png
 ---
 
-Scaleway offers the EM-L110X-SATA machine, which has 4 x 12TB disks. I've noted in a previous [post](https://www.tunbury.org/2025/05/01/removing-mdadm/) that the configuration isn't ideal for my purposes, and I outlined a way to reconfigure the machine. The premise of that post is that you can eject one of the disks from the RAID5 array to use as the new root filesystem. All well and good, but you must wait for the RAID5 array to finish building; otherwise, ejecting the disk immediately leads to an inaccessible file system.
+Scaleway offers the EM-L110X-SATA machine, which has 4 x 12TB disks. I've noted in a previous [post]({% post_url 2025-05-01-removing-mdadm %}) that the configuration isn't ideal for my purposes, and I outlined a way to reconfigure the machine. The premise of that post is that you can eject one of the disks from the RAID5 array to use as the new root filesystem. All well and good, but you must wait for the RAID5 array to finish building; otherwise, ejecting the disk immediately leads to an inaccessible file system.
 
 Scaleway allows you to boot into a rescue console. This is a netboot environment which has SSH access using a randomly generated username and password.
 

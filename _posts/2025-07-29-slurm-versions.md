@@ -56,7 +56,7 @@ dpkg -i slurm-smd-slurmd_25.05.1-1_amd64.deb slurm-smd-client_25.05.1-1_amd64.de
 dpkg -i slurm-smd-slurmctld_25.05.1-1_amd64.deb slurm-smd-client_25.05.1-1_amd64.deb slurm-smd_25.05.1-1_amd64.deb slurm-smd_25.05.1-1_amd64.deb
 ```
 
-With the same version of Slurm on both machines, the instructions from my earlier [post](https://www.tunbury.org/2025/04/14/slurm-workload-manager/) are working again.
+With the same version of Slurm on both machines, the instructions from my earlier [post]({% post_url 2025-04-14-slurm-workload-manager %}) are working again.
 
 ```sh
 # sinfo

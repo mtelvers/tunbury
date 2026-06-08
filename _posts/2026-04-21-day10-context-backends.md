@@ -9,7 +9,7 @@ image:
   thumbnail: /images/thumbs/opam.png
 ---
 
-Last month, I [wrote](https://www.tunbury.org/2026/03/16/day10/) a walkthrough on using [mtelvers/day10](https://github.com/mtelvers/day10) and while stuck in traffic yesterday, I was thinking about all those individual opam files which are read for every solve.
+Last month, I [wrote]({% post_url 2026-03-16-day10 %}) a walkthrough on using [mtelvers/day10](https://github.com/mtelvers/day10) and while stuck in traffic yesterday, I was thinking about all those individual opam files which are read for every solve.
 
 `day10`'s solver is built around `Opam_0install.Solver.Make(Dir_context)`, and `Dir_context` reads opam files directly from an `opam-repository` working tree. For a typical package such as `0install.2.18`, I was seeing ~0.79s per solve, and on my machine , it showed 3m30s of user time for 200 packages at `--fork 10`. The wall time was 23.6s.
 

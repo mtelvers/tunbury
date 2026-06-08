@@ -9,7 +9,7 @@ image:
   thumbnail: /images/thumbs/tessera.png
 ---
 
-Following my previous [CPU vs GPU](https://www.tunbury.org/2026/03/11/gpu-vs-cpu/) post I started thinking about what the ONNX inference engine actually did and if it could be replicated in [OxCaml](https://oxcaml.org) with SIMD.
+Following my previous [CPU vs GPU]({% post_url 2026-03-11-gpu-vs-cpu %}) post I started thinking about what the ONNX inference engine actually did and if it could be replicated in [OxCaml](https://oxcaml.org) with SIMD.
 
 Protocol Buffers are Google's language-neutral, platform-neutral serialisation format. ONNX uses them to define its model file format. The schema is defined at [onnx/onnx.proto](https://github.com/onnx/onnx/blob/main/onnx/onnx.proto).
 
