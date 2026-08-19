@@ -9,6 +9,26 @@
   text-align: center;
 }
 
+// Heading anchors, injected at build time by _includes/anchor_headings.html
+.heading-link {
+  margin-left: 0.3em;
+  border: 0;
+  color: inherit;
+  opacity: 0;
+  text-decoration: none;
+  transition: opacity 0.2s ease-in-out;
+}
+
+h1:hover > .heading-link,
+h2:hover > .heading-link,
+h3:hover > .heading-link,
+h4:hover > .heading-link,
+h5:hover > .heading-link,
+h6:hover > .heading-link,
+.heading-link:focus {
+  opacity: 0.45;
+}
+
 .page-image {
   @include breakpoint($medium) {
     margin-top: 0px;

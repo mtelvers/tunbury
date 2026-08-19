@@ -1,0 +1,44 @@
+---
+layout: default
+---
+
+{% comment %}
+  Local override of so-simple-theme's _layouts/page.html (upstream: master).
+  Only change from upstream: the page body is piped through
+  _includes/anchor_headings.html to add clickable heading anchors.
+  The theme's archive layouts (posts, categories, tags, home, search) all
+  inherit from this one, so the include is applied only when the page itself
+  asked for `layout: page` -- otherwise the anchors land on generated
+  listing headings.
+  Re-sync with upstream if the theme's page layout changes.
+{% endcomment %}
+<main id="main" class="main-content" aria-label="Content">
+  <article>
+    {% include page-image.html %}
+    <div class="page-wrapper">
+      <header class="page-header">
+        {% if page.id %}
+          {% assign title = page.title | markdownify | strip_html %}
+        {% else %}
+          {% assign title = page.title %}
+        {% endif %}
+        {% if page.link %}
+          <h1 id="page-title" class="page-title"><a href="{{ page.link }}">{{ title }} <span class="link-arrow">&rarr;</span></a></h1>
+        {% else %}
+          <h1 id="page-title" class="page-title">{{ title }}</h1>
+        {% endif %}
+      </header>
+      <div class="page-content">
+        {% if page.layout == "page" %}
+          {% include anchor_headings.html html=content generateId=true anchorBody="#" anchorClass="heading-link" anchorTitle="Link to this section" %}
+        {% else %}
+          {{ content }}
+        {% endif %}
+
+        {% if page.share %}
+          {% include social-share.html %}
+        {% endif %}
+      </div>
+    </div>
+  </article>
+</main>

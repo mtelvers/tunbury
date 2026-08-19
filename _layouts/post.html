@@ -1,0 +1,47 @@
+---
+layout: default
+---
+
+{% comment %}
+  Local override of so-simple-theme's _layouts/post.html (upstream: master).
+  Only change from upstream: the post body is piped through
+  _includes/anchor_headings.html to add clickable heading anchors.
+  Re-sync with upstream if the theme's post layout changes.
+{% endcomment %}
+<main id="main" class="main-content" aria-label="Content">
+  <article class="h-entry">
+    {% include page-image.html %}
+    <div class="page-wrapper">
+      <header class="page-header">
+        {% assign title = page.title | markdownify | strip_html %}
+        {% if page.link %}
+          <h1 id="page-title" class="page-title p-name"><a href="{{ page.link }}">{{ title }} <span class="link-arrow">&rarr;</span></a></h1>
+        {% else %}
+          <h1 id="page-title" class="page-title p-name">{{ title }}</h1>
+        {% endif %}
+      </header>
+
+      <div class="page-sidebar">
+        {% include page-author.html %}
+        {% include page-categories.html %}
+        {% include page-tags.html %}
+      </div>
+
+      <div class="page-content">
+        <div class="e-content">
+          {% include anchor_headings.html html=content generateId=true anchorBody="#" anchorClass="heading-link" anchorTitle="Link to this section" %}
+        </div>
+
+        {% if page.share %}
+          {% include social-share.html %}
+        {% endif %}
+
+        {% if site.disqus.shortname %}
+          {% include disqus-comments.html %}
+        {% endif %}
+
+        {% include page-pagination.html %}
+      </div>
+    </div>
+  </article>
+</main>
