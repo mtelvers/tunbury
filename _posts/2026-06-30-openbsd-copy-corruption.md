@@ -9,7 +9,7 @@ image:
   thumbnail: /images/thumbs/openbsd-logo.png
 ---
 
-[Last week]({% post_url 2026-06-26-week-26-2025 %}) I updated the OpenBSD workers to OCaml 5.5.0 and took that opportunity to deploy OpenBSD 7.8. Shortly after, [issue#1061](https://github.com/ocurrent/ocaml-ci/issues/1061) was opened as jobs randomly failed with an opam parse error.
+[Last week]({% post_url 2026-06-26-week-26 %}) I updated the OpenBSD workers to OCaml 5.5.0 and took that opportunity to deploy OpenBSD 7.8. Shortly after, [issue#1061](https://github.com/ocurrent/ocaml-ci/issues/1061) was opened as jobs randomly failed with an opam parse error.
 
 The log reported:
 
